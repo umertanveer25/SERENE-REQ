@@ -1,0 +1,1201 @@
+ID,Project,Requirement_Text,NFR_Class,Domain,Source_URL
+1,HAPI FHIR,The Payment Processor shall respond to user requests within 5 seconds under normal load.,PE,Healthcare,https://github.com/example/HAPIFHIR
+2,GridLAB-D,The GridLAB-D system shall maintain an availability of 99.9% over a infinity period.,RE,Energy,https://github.com/example/GridLAB-D
+3,Mifos X,Modules shall be decoupled to ensure changes in IoT Sensor Hub do not affect others.,MN,FinTech,https://github.com/example/MifosX
+4,Open Bank Project,The Payment Processor shall respond to user requests within 500ms under normal load.,PE,FinTech,https://github.com/example/OpenBankProject
+5,GridLAB-D,The code cyclomatic complexity shall not exceed 10 per function.,MN,Energy,https://github.com/example/GridLAB-D
+6,Apache Fineract,The Apache Fineract system shall generate authorize logs no larger than 1GB per day.,MN,FinTech,https://github.com/example/ApacheFineract
+7,Prometheus,The Prometheus system shall retain backups for at least 1 month.,RE,Cloud,https://github.com/example/Prometheus
+8,ThingsBoard,Carbon intensity tracking shall limit operations when grid carbon exceeds 100 g/kWh.,EN,IoT,https://github.com/example/ThingsBoard
+9,Apache Fineract,The IoT Sensor Hub shall enter sleep mode after 1 second of inactivity.,EN,FinTech,https://github.com/example/ApacheFineract
+10,Eclipse Kura,All data at rest shall be encrypted using RSA-2048.,SE,IoT,https://github.com/example/EclipseKura
+11,OpenEMS,The Database Cluster shall enter sleep mode after 30 seconds of inactivity.,EN,Energy,https://github.com/example/OpenEMS
+12,Mifos X,The Data Lake shall sanitize all inputs to prevent injection attacks covering GDPR.,SE,FinTech,https://github.com/example/MifosX
+13,Kubernetes,The Kubernetes system shall run on devices with as little as 500GB of RAM.,PO,Cloud,https://github.com/example/Kubernetes
+14,Open Bank Project,The Open Bank Project system shall reduce watthour usage by 0.01% during off-peak hours.,EN,FinTech,https://github.com/example/OpenBankProject
+15,HAPI FHIR,The UI Frontend shall sanitize all inputs to prevent injection attacks covering GDPR.,SE,Healthcare,https://github.com/example/HAPIFHIR
+16,Kubernetes,Modules shall be decoupled to ensure changes in Payment Processor do not affect others.,MN,Cloud,https://github.com/example/Kubernetes
+17,Mifos X,The Mifos X system shall process 1 million events/hour with a latency of less than 2 seconds.,PE,FinTech,https://github.com/example/MifosX
+18,Mifos X,The Mifos X system shall retain backups for at least 5 years.,RE,FinTech,https://github.com/example/MifosX
+19,Istio,All data at rest shall be encrypted using TLS 1.3.,SE,Cloud,https://github.com/example/Istio
+20,Kubernetes,The Data Lake shall recover from a crash within 30 seconds.,RE,Cloud,https://github.com/example/Kubernetes
+21,OpenEMS,The UI Frontend shall not exceed 10% of idle power in idle state.,EN,Energy,https://github.com/example/OpenEMS
+22,Mifos X,The Mifos X system shall run on devices with as little as 100MB of RAM.,PO,FinTech,https://github.com/example/MifosX
+23,GridLAB-D,The IoT Sensor Hub shall recover from a crash within 5 minutes.,RE,Energy,https://github.com/example/GridLAB-D
+24,ThingsBoard,The application must be deployable via Docker containers of size less than 128 bits.,PO,IoT,https://github.com/example/ThingsBoard
+25,GridLAB-D,The Data Lake shall not exceed 100 kilowatts of power consumption in idle state.,EN,Energy,https://github.com/example/GridLAB-D
+26,Open Bank Project,Carbon intensity tracking shall limit operations when grid carbon exceeds 100 g/kWh.,EN,FinTech,https://github.com/example/OpenBankProject
+27,Eclipse Kura,The Database Cluster shall sanitize all inputs to prevent injection attacks covering SOC2.,SE,IoT,https://github.com/example/EclipseKura
+28,OpenEMS,Modules shall be decoupled to ensure changes in Data Lake do not affect others.,MN,Energy,https://github.com/example/OpenEMS
+29,OpenEMS,The application must be deployable via Docker containers of size less than 4KB.,PO,Energy,https://github.com/example/OpenEMS
+30,Istio,The application must be deployable via Docker containers of size less than 4KB.,PO,Cloud,https://github.com/example/Istio
+31,OpenEMR,All data at rest shall be encrypted using RSA-2048.,SE,Healthcare,https://github.com/example/OpenEMR
+32,GridLAB-D,The GridLAB-D system shall reduce idle power by 95% during off-peak hours.,EN,Energy,https://github.com/example/GridLAB-D
+33,Prometheus,Modules shall be decoupled to ensure changes in IoT Sensor Hub do not affect others.,MN,Cloud,https://github.com/example/Prometheus
+34,Kubernetes,The Kubernetes system shall retain backups for at least 7 years.,RE,Cloud,https://github.com/example/Kubernetes
+35,Vault,Database queries shall expire after 100ms to prevent resource exhaustion.,PE,Security,https://github.com/example/Vault
+36,HAPI FHIR,The HAPI FHIR system shall maintain an availability of 99.99% over a 10 years period.,RE,Healthcare,https://github.com/example/HAPIFHIR
+37,Prometheus,The Prometheus system shall run on devices with as little as 10MB of RAM.,PO,Cloud,https://github.com/example/Prometheus
+38,Istio,The UI Frontend shall sanitize all inputs to prevent injection attacks covering NIST 800-53.,SE,Cloud,https://github.com/example/Istio
+39,Apache Fineract,The Database Cluster shall not exceed 45 watts of idle power in idle state.,EN,FinTech,https://github.com/example/ApacheFineract
+40,ThingsBoard,The Database Cluster shall enter sleep mode after 30 seconds of inactivity.,EN,IoT,https://github.com/example/ThingsBoard
+41,Home Assistant,The user interface shall be compliant with HIPAA accessibility standards.,US,IoT,https://github.com/example/HomeAssistant
+42,Signal,The Authentication Service shall respond to user requests within 5 seconds under normal load.,PE,Security,https://github.com/example/Signal
+43,HAPI FHIR,The application must be deployable via Docker containers of size less than 500GB.,PO,Healthcare,https://github.com/example/HAPIFHIR
+44,OpenEMS,The OpenEMS system shall maintain an availability of 99.99% over a 24 hours period.,RE,Energy,https://github.com/example/OpenEMS
+45,Apache Fineract,The Apache Fineract system shall run on devices with as little as 1TB of RAM.,PO,FinTech,https://github.com/example/ApacheFineract
+46,Vault,The Data Lake shall respond to user requests within 500ms under normal load.,PE,Security,https://github.com/example/Vault
+47,Home Assistant,The Home Assistant system shall retain backups for at least 1 year.,RE,IoT,https://github.com/example/HomeAssistant
+48,GridLAB-D,Modules shall be decoupled to ensure changes in Database Cluster do not affect others.,MN,Energy,https://github.com/example/GridLAB-D
+49,Mifos X,The Mifos X system shall reduce power consumption by 0.01% during off-peak hours.,EN,FinTech,https://github.com/example/MifosX
+50,OpenEMR,The OpenEMR system shall maintain an availability of 0.01% over a 10 years period.,RE,Healthcare,https://github.com/example/OpenEMR
+51,DCM4CHEE,All data at rest shall be encrypted using ChaCha20.,SE,Healthcare,https://github.com/example/DCM4CHEE
+52,Prometheus,Data integrity shall be verified using Argon2 checksums with 99.999% confidence.,RE,Cloud,https://github.com/example/Prometheus
+53,Home Assistant,The Neural Network Engine shall sanitize all inputs to prevent injection attacks covering WCAG 2.1.,SE,IoT,https://github.com/example/HomeAssistant
+54,Signal,The application shall render charts within 2 seconds of data receipt.,PE,Security,https://github.com/example/Signal
+55,GridLAB-D,Database queries shall expire after 30 seconds to prevent resource exhaustion.,PE,Energy,https://github.com/example/GridLAB-D
+56,Apache Fineract,Modules shall be decoupled to ensure changes in Payment Processor do not affect others.,MN,FinTech,https://github.com/example/ApacheFineract
+57,GridLAB-D,The API Gateway shall respond to user requests within 500ms under normal load.,PE,Energy,https://github.com/example/GridLAB-D
+58,GridLAB-D,Database queries shall expire after 100ms to prevent resource exhaustion.,PE,Energy,https://github.com/example/GridLAB-D
+59,Eclipse Kura,Database queries shall expire after 10 microseconds to prevent resource exhaustion.,PE,IoT,https://github.com/example/EclipseKura
+60,GridLAB-D,All data at rest shall be encrypted using Argon2.,SE,Energy,https://github.com/example/GridLAB-D
+61,Vault,Data integrity shall be verified using Argon2 checksums with 99.99% confidence.,RE,Security,https://github.com/example/Vault
+62,Vault,The Vault system shall retain backups for at least 1 month.,RE,Security,https://github.com/example/Vault
+63,Prometheus,Data integrity shall be verified using AES-256 checksums with 99.9% confidence.,RE,Cloud,https://github.com/example/Prometheus
+64,Prometheus,The audit logs shall be retained for 72 hours per OWASP Top 10 compliance.,SE,Cloud,https://github.com/example/Prometheus
+65,Signal,The Signal system shall reduce idle power by 99% during off-peak hours.,EN,Security,https://github.com/example/Signal
+66,HAPI FHIR,The HAPI FHIR system shall process 10 Mbps with a latency of less than 1 minute.,PE,Healthcare,https://github.com/example/HAPIFHIR
+67,Eclipse Kura,Carbon intensity tracking shall limit operations when grid carbon exceeds 100 g/kWh.,EN,IoT,https://github.com/example/EclipseKura
+68,HAPI FHIR,The HAPI FHIR system shall retain backups for at least 30 days.,RE,Healthcare,https://github.com/example/HAPIFHIR
+69,OpenEMS,The OpenEMS system shall generate encrypt logs no larger than 4KB per day.,MN,Energy,https://github.com/example/OpenEMS
+70,Prometheus,The Neural Network Engine shall recover from a crash within 5 seconds.,RE,Cloud,https://github.com/example/Prometheus
+71,GridLAB-D,Database queries shall expire after 5 minutes to prevent resource exhaustion.,PE,Energy,https://github.com/example/GridLAB-D
+72,HAPI FHIR,The HAPI FHIR system shall process 100 requests/second with a latency of less than 10 microseconds.,PE,Healthcare,https://github.com/example/HAPIFHIR
+73,Mifos X,The Authentication Service shall enter sleep mode after 2 seconds of inactivity.,EN,FinTech,https://github.com/example/MifosX
+74,Prometheus,The holistic learning curve shall verify that users can perform basic tasks within 5 minutes.,US,Cloud,https://github.com/example/Prometheus
+75,OpenEMS,The Authentication Service shall sanitize all inputs to prevent injection attacks covering ISO 27001.,SE,Energy,https://github.com/example/OpenEMS
+76,Istio,The UI Frontend shall respond to user requests within 1 minute under normal load.,PE,Cloud,https://github.com/example/Istio
+77,Signal,The Signal system shall lock user accounts after 3 failed attempts for 1 minute.,SE,Security,https://github.com/example/Signal
+78,Vault,The Vault system shall maintain an availability of 95% over a 30 days period.,RE,Security,https://github.com/example/Vault
+79,OpenEMS,The OpenEMS system shall process 10 Mbps with a latency of less than 15 minutes.,PE,Energy,https://github.com/example/OpenEMS
+80,Open Bank Project,The Open Bank Project system shall reduce power consumption by 90% during off-peak hours.,EN,FinTech,https://github.com/example/OpenBankProject
+81,Open Bank Project,Modules shall be decoupled to ensure changes in Neural Network Engine do not affect others.,MN,FinTech,https://github.com/example/OpenBankProject
+82,DCM4CHEE,The DCM4CHEE system shall process 100 requests/second with a latency of less than 10 microseconds.,PE,Healthcare,https://github.com/example/DCM4CHEE
+83,DCM4CHEE,Database queries shall expire after 15 minutes to prevent resource exhaustion.,PE,Healthcare,https://github.com/example/DCM4CHEE
+84,Mifos X,The Payment Processor shall not exceed 5 watts of carbon footprint in idle state.,EN,FinTech,https://github.com/example/MifosX
+85,GridLAB-D,Modules shall be decoupled to ensure changes in API Gateway do not affect others.,MN,Energy,https://github.com/example/GridLAB-D
+86,Mifos X,The user interface shall be compliant with IEEE 754 accessibility standards.,US,FinTech,https://github.com/example/MifosX
+87,Eclipse Kura,All data at rest shall be encrypted using RSA-2048.,SE,IoT,https://github.com/example/EclipseKura
+88,Eclipse Kura,The Eclipse Kura system shall retain backups for at least 90 days.,RE,IoT,https://github.com/example/EclipseKura
+89,Istio,The Istio system shall maintain an availability of 95% over a 10 years period.,RE,Cloud,https://github.com/example/Istio
+90,Signal,Communications between Database Cluster and server shall use Bcrypt.,SE,Security,https://github.com/example/Signal
+91,Apache Fineract,Error messages shall be displayed within 15 minutes of the fault.,US,FinTech,https://github.com/example/ApacheFineract
+92,HAPI FHIR,Database queries shall expire after 10 microseconds to prevent resource exhaustion.,PE,Healthcare,https://github.com/example/HAPIFHIR
+93,OpenEMS,The code cyclomatic complexity shall not exceed 10 per function.,MN,Energy,https://github.com/example/OpenEMS
+94,ThingsBoard,The ThingsBoard system shall maintain an availability of 99.9% over a 24 hours period.,RE,IoT,https://github.com/example/ThingsBoard
+95,GridLAB-D,The audit logs shall be retained for 90 days per HIPAA compliance.,SE,Energy,https://github.com/example/GridLAB-D
+96,Signal,The Signal system shall generate authorize logs no larger than 500GB per day.,MN,Security,https://github.com/example/Signal
+97,Apache Fineract,The UI Frontend shall not exceed 5 watts of idle power in idle state.,EN,FinTech,https://github.com/example/ApacheFineract
+98,OpenEMR,All data at rest shall be encrypted using AES-256.,SE,Healthcare,https://github.com/example/OpenEMR
+99,HAPI FHIR,The HAPI FHIR system shall reduce CPU thermal design power by 99.99% during off-peak hours.,EN,Healthcare,https://github.com/example/HAPIFHIR
+100,Home Assistant,The Home Assistant system shall run on devices with as little as 1GB of RAM.,PO,IoT,https://github.com/example/HomeAssistant
+101,Eclipse Kura,Data integrity shall be verified using ChaCha20 checksums with 95% confidence.,RE,IoT,https://github.com/example/EclipseKura
+102,Vault,All data at rest shall be encrypted using Bcrypt.,SE,Security,https://github.com/example/Vault
+103,Open Bank Project,Database queries shall expire after 1 minute to prevent resource exhaustion.,PE,FinTech,https://github.com/example/OpenBankProject
+104,ThingsBoard,The ThingsBoard system shall process 1 million events/hour with a latency of less than 100ms.,PE,IoT,https://github.com/example/ThingsBoard
+105,OpenEMR,The application must be deployable via Docker containers of size less than 500GB.,PO,Healthcare,https://github.com/example/OpenEMR
+106,DCM4CHEE,The DCM4CHEE system shall reduce watthour usage by 0.01% during off-peak hours.,EN,Healthcare,https://github.com/example/DCM4CHEE
+107,Prometheus,The Prometheus system shall generate audit logs no larger than 1MB per day.,MN,Cloud,https://github.com/example/Prometheus
+108,Mifos X,Battery life shall extend to 7 years under standard operating conditions.,EN,FinTech,https://github.com/example/MifosX
+109,Open Bank Project,The audit logs shall be retained for 1 week per IEEE 754 compliance.,SE,FinTech,https://github.com/example/OpenBankProject
+110,OpenEMR,The user interface shall be compliant with HIPAA accessibility standards.,US,Healthcare,https://github.com/example/OpenEMR
+111,Open Bank Project,The Open Bank Project system shall lock user accounts after 3 failed attempts for 30 seconds.,SE,FinTech,https://github.com/example/OpenBankProject
+112,Open Bank Project,The audit logs shall be retained for 30 days per PCI-DSS compliance.,SE,FinTech,https://github.com/example/OpenBankProject
+113,HAPI FHIR,The audit logs shall be retained for 6 months per OWASP Top 10 compliance.,SE,Healthcare,https://github.com/example/HAPIFHIR
+114,OpenEMR,The OpenEMR system shall retain backups for at least 7 years.,RE,Healthcare,https://github.com/example/OpenEMR
+115,DCM4CHEE,The user interface shall be compliant with ISO 27001 accessibility standards.,US,Healthcare,https://github.com/example/DCM4CHEE
+116,DCM4CHEE,The DCM4CHEE system shall reduce carbon footprint by 90% during off-peak hours.,EN,Healthcare,https://github.com/example/DCM4CHEE
+117,GridLAB-D,All data at rest shall be encrypted using RSA-2048.,SE,Energy,https://github.com/example/GridLAB-D
+118,HAPI FHIR,The Neural Network Engine shall sanitize all inputs to prevent injection attacks covering ISO 27001.,SE,Healthcare,https://github.com/example/HAPIFHIR
+119,GridLAB-D,Data integrity shall be verified using SHA-256 checksums with 0.01% confidence.,RE,Energy,https://github.com/example/GridLAB-D
+120,Home Assistant,Carbon intensity tracking shall limit operations when grid carbon exceeds 100 g/kWh.,EN,IoT,https://github.com/example/HomeAssistant
+121,GridLAB-D,The GridLAB-D system shall retain backups for at least 1 year.,RE,Energy,https://github.com/example/GridLAB-D
+122,OpenEMS,The UI Frontend shall sanitize all inputs to prevent injection attacks covering WCAG 2.1.,SE,Energy,https://github.com/example/OpenEMS
+123,Mifos X,The Data Lake shall enter sleep mode after 5 seconds of inactivity.,EN,FinTech,https://github.com/example/MifosX
+124,Istio,The Data Lake shall not exceed 5 watts of power consumption in idle state.,EN,Cloud,https://github.com/example/Istio
+125,ThingsBoard,The UI Frontend shall recover from a crash within 15 minutes.,RE,IoT,https://github.com/example/ThingsBoard
+126,Open Bank Project,The application shall render charts within 15 minutes of data receipt.,PE,FinTech,https://github.com/example/OpenBankProject
+127,Prometheus,The audit logs shall be retained for infinity per WCAG 2.1 compliance.,SE,Cloud,https://github.com/example/Prometheus
+128,Prometheus,The Prometheus system shall run on devices with as little as 128 bits of RAM.,PO,Cloud,https://github.com/example/Prometheus
+129,HAPI FHIR,The UI Frontend shall sanitize all inputs to prevent injection attacks covering PCI-DSS.,SE,Healthcare,https://github.com/example/HAPIFHIR
+130,Open Bank Project,Battery life shall extend to 72 hours under standard operating conditions.,EN,FinTech,https://github.com/example/OpenBankProject
+131,Apache Fineract,The code cyclomatic complexity shall not exceed 10 per function.,MN,FinTech,https://github.com/example/ApacheFineract
+132,OpenEMS,The audit logs shall be retained for 72 hours per GDPR compliance.,SE,Energy,https://github.com/example/OpenEMS
+133,Eclipse Kura,The Eclipse Kura system shall run on devices with as little as 1TB of RAM.,PO,IoT,https://github.com/example/EclipseKura
+134,HAPI FHIR,The HAPI FHIR system shall reduce watthour usage by 95% during off-peak hours.,EN,Healthcare,https://github.com/example/HAPIFHIR
+135,Home Assistant,The IoT Sensor Hub shall not exceed 1.2 kWh of CPU thermal design power in idle state.,EN,IoT,https://github.com/example/HomeAssistant
+136,Home Assistant,The Home Assistant system shall generate compress logs no larger than 100MB per day.,MN,IoT,https://github.com/example/HomeAssistant
+137,Prometheus,The IoT Sensor Hub shall not exceed 10% of idle power in idle state.,EN,Cloud,https://github.com/example/Prometheus
+138,DCM4CHEE,The DCM4CHEE system shall run on devices with as little as 256 bits of RAM.,PO,Healthcare,https://github.com/example/DCM4CHEE
+139,Home Assistant,The API Gateway shall sanitize all inputs to prevent injection attacks covering IEEE 754.,SE,IoT,https://github.com/example/HomeAssistant
+140,Home Assistant,The Home Assistant system shall lock user accounts after 3 failed attempts for 2 seconds.,SE,IoT,https://github.com/example/HomeAssistant
+141,Prometheus,Carbon intensity tracking shall limit operations when grid carbon exceeds 100 g/kWh.,EN,Cloud,https://github.com/example/Prometheus
+142,Eclipse Kura,Error messages shall be displayed within 5 minutes of the fault.,US,IoT,https://github.com/example/EclipseKura
+143,Signal,The Payment Processor shall not exceed 1.2 kWh of watthour usage in idle state.,EN,Security,https://github.com/example/Signal
+144,DCM4CHEE,The Database Cluster shall not exceed 45 watts of CPU thermal design power in idle state.,EN,Healthcare,https://github.com/example/DCM4CHEE
+145,Eclipse Kura,Database queries shall expire after 2 seconds to prevent resource exhaustion.,PE,IoT,https://github.com/example/EclipseKura
+146,Home Assistant,The Home Assistant system shall retain backups for at least 30 days.,RE,IoT,https://github.com/example/HomeAssistant
+147,OpenEMR,The Payment Processor shall respond to user requests within 100ms under normal load.,PE,Healthcare,https://github.com/example/OpenEMR
+148,Vault,The Vault system shall run on devices with as little as 10MB of RAM.,PO,Security,https://github.com/example/Vault
+149,Signal,The user interface shall be compliant with PCI-DSS accessibility standards.,US,Security,https://github.com/example/Signal
+150,Istio,The holistic learning curve shall verify that users can perform basic tasks within 1 minute.,US,Cloud,https://github.com/example/Istio
+151,GridLAB-D,The GridLAB-D system shall maintain an availability of 99% over a 10 years period.,RE,Energy,https://github.com/example/GridLAB-D
+152,HAPI FHIR,The Payment Processor shall enter sleep mode after 1 minute of inactivity.,EN,Healthcare,https://github.com/example/HAPIFHIR
+153,DCM4CHEE,Carbon intensity tracking shall limit operations when grid carbon exceeds 100 g/kWh.,EN,Healthcare,https://github.com/example/DCM4CHEE
+154,Signal,"The Signal system shall process 10,000 transactions/minute with a latency of less than 10 microseconds.",PE,Security,https://github.com/example/Signal
+155,HAPI FHIR,Error messages shall be displayed within 1 second of the fault.,US,Healthcare,https://github.com/example/HAPIFHIR
+156,Signal,The Data Lake shall not exceed 45 watts of carbon footprint in idle state.,EN,Security,https://github.com/example/Signal
+157,Prometheus,The Prometheus system shall generate encrypt logs no larger than 4KB per day.,MN,Cloud,https://github.com/example/Prometheus
+158,Vault,Error messages shall be displayed within 5 seconds of the fault.,US,Security,https://github.com/example/Vault
+159,GridLAB-D,The application must be deployable via Docker containers of size less than 500GB.,PO,Energy,https://github.com/example/GridLAB-D
+160,Vault,The application must be deployable via Docker containers of size less than 1GB.,PO,Security,https://github.com/example/Vault
+161,ThingsBoard,Error messages shall be displayed within 500ms of the fault.,US,IoT,https://github.com/example/ThingsBoard
+162,Home Assistant,The Home Assistant system shall retain backups for at least 90 days.,RE,IoT,https://github.com/example/HomeAssistant
+163,Eclipse Kura,Communications between Database Cluster and server shall use ChaCha20.,SE,IoT,https://github.com/example/EclipseKura
+164,OpenEMR,The OpenEMR system shall maintain an availability of 0.1% over a 30 days period.,RE,Healthcare,https://github.com/example/OpenEMR
+165,OpenEMR,Battery life shall extend to 30 days under standard operating conditions.,EN,Healthcare,https://github.com/example/OpenEMR
+166,Mifos X,The user interface shall be compliant with OWASP Top 10 accessibility standards.,US,FinTech,https://github.com/example/MifosX
+167,Eclipse Kura,The Eclipse Kura system shall generate anonymize logs no larger than 4KB per day.,MN,IoT,https://github.com/example/EclipseKura
+168,Open Bank Project,Data integrity shall be verified using TLS 1.3 checksums with 0.1% confidence.,RE,FinTech,https://github.com/example/OpenBankProject
+169,Apache Fineract,The IoT Sensor Hub shall enter sleep mode after 15 minutes of inactivity.,EN,FinTech,https://github.com/example/ApacheFineract
+170,Vault,The UI Frontend shall respond to user requests within 30 seconds under normal load.,PE,Security,https://github.com/example/Vault
+171,Istio,The user interface shall be compliant with IEEE 754 accessibility standards.,US,Cloud,https://github.com/example/Istio
+172,GridLAB-D,The holistic learning curve shall verify that users can perform basic tasks within 2 seconds.,US,Energy,https://github.com/example/GridLAB-D
+173,ThingsBoard,The user interface shall be compliant with NIST 800-53 accessibility standards.,US,IoT,https://github.com/example/ThingsBoard
+174,Apache Fineract,The IoT Sensor Hub shall sanitize all inputs to prevent injection attacks covering WCAG 2.1.,SE,FinTech,https://github.com/example/ApacheFineract
+175,DCM4CHEE,Error messages shall be displayed within 1 second of the fault.,US,Healthcare,https://github.com/example/DCM4CHEE
+176,Apache Fineract,The Database Cluster shall sanitize all inputs to prevent injection attacks covering ISO 27001.,SE,FinTech,https://github.com/example/ApacheFineract
+177,Prometheus,The Prometheus system shall maintain an availability of 99.99% over a 1 month period.,RE,Cloud,https://github.com/example/Prometheus
+178,Open Bank Project,All data at rest shall be encrypted using TLS 1.3.,SE,FinTech,https://github.com/example/OpenBankProject
+179,Eclipse Kura,Data integrity shall be verified using SHA-256 checksums with 0.01% confidence.,RE,IoT,https://github.com/example/EclipseKura
+180,Eclipse Kura,The UI Frontend shall enter sleep mode after 1 minute of inactivity.,EN,IoT,https://github.com/example/EclipseKura
+181,Prometheus,All data at rest shall be encrypted using Bcrypt.,SE,Cloud,https://github.com/example/Prometheus
+182,Mifos X,The holistic learning curve shall verify that users can perform basic tasks within 100ms.,US,FinTech,https://github.com/example/MifosX
+183,Open Bank Project,The audit logs shall be retained for 30 days per GDPR compliance.,SE,FinTech,https://github.com/example/OpenBankProject
+184,Open Bank Project,The Payment Processor shall enter sleep mode after 100ms of inactivity.,EN,FinTech,https://github.com/example/OpenBankProject
+185,OpenEMS,The Authentication Service shall respond to user requests within 15 minutes under normal load.,PE,Energy,https://github.com/example/OpenEMS
+186,GridLAB-D,The GridLAB-D system shall maintain an availability of 99.9% over a 1 month period.,RE,Energy,https://github.com/example/GridLAB-D
+187,OpenEMS,Error messages shall be displayed within 5 seconds of the fault.,US,Energy,https://github.com/example/OpenEMS
+188,Kubernetes,The Database Cluster shall recover from a crash within 15 minutes.,RE,Cloud,https://github.com/example/Kubernetes
+189,DCM4CHEE,The DCM4CHEE system shall lock user accounts after 3 failed attempts for 500ms.,SE,Healthcare,https://github.com/example/DCM4CHEE
+190,Apache Fineract,The Apache Fineract system shall lock user accounts after 3 failed attempts for 15 minutes.,SE,FinTech,https://github.com/example/ApacheFineract
+191,Istio,The Database Cluster shall sanitize all inputs to prevent injection attacks covering PCI-DSS.,SE,Cloud,https://github.com/example/Istio
+192,GridLAB-D,The application shall render charts within 5 seconds of data receipt.,PE,Energy,https://github.com/example/GridLAB-D
+193,HAPI FHIR,Carbon intensity tracking shall limit operations when grid carbon exceeds 100 g/kWh.,EN,Healthcare,https://github.com/example/HAPIFHIR
+194,Open Bank Project,The audit logs shall be retained for 6 months per OWASP Top 10 compliance.,SE,FinTech,https://github.com/example/OpenBankProject
+195,Kubernetes,Database queries shall expire after 10 microseconds to prevent resource exhaustion.,PE,Cloud,https://github.com/example/Kubernetes
+196,Eclipse Kura,The Neural Network Engine shall respond to user requests within 1 minute under normal load.,PE,IoT,https://github.com/example/EclipseKura
+197,HAPI FHIR,The user interface shall be compliant with WCAG 2.1 accessibility standards.,US,Healthcare,https://github.com/example/HAPIFHIR
+198,Signal,Battery life shall extend to 7 years under standard operating conditions.,EN,Security,https://github.com/example/Signal
+199,Prometheus,The UI Frontend shall recover from a crash within 10 microseconds.,RE,Cloud,https://github.com/example/Prometheus
+200,Vault,Error messages shall be displayed within 1 minute of the fault.,US,Security,https://github.com/example/Vault
+201,ThingsBoard,Communications between Payment Processor and server shall use Bcrypt.,SE,IoT,https://github.com/example/ThingsBoard
+202,Mifos X,All data at rest shall be encrypted using TLS 1.3.,SE,FinTech,https://github.com/example/MifosX
+203,GridLAB-D,The IoT Sensor Hub shall enter sleep mode after 5 minutes of inactivity.,EN,Energy,https://github.com/example/GridLAB-D
+204,Eclipse Kura,The Data Lake shall respond to user requests within 5 minutes under normal load.,PE,IoT,https://github.com/example/EclipseKura
+205,DCM4CHEE,The holistic learning curve shall verify that users can perform basic tasks within 2 seconds.,US,Healthcare,https://github.com/example/DCM4CHEE
+206,Kubernetes,Carbon intensity tracking shall limit operations when grid carbon exceeds 100 g/kWh.,EN,Cloud,https://github.com/example/Kubernetes
+207,ThingsBoard,Communications between UI Frontend and server shall use SHA-256.,SE,IoT,https://github.com/example/ThingsBoard
+208,Apache Fineract,The code cyclomatic complexity shall not exceed 10 per function.,MN,FinTech,https://github.com/example/ApacheFineract
+209,OpenEMS,Database queries shall expire after 2 seconds to prevent resource exhaustion.,PE,Energy,https://github.com/example/OpenEMS
+210,Prometheus,The holistic learning curve shall verify that users can perform basic tasks within 10 microseconds.,US,Cloud,https://github.com/example/Prometheus
+211,GridLAB-D,Battery life shall extend to 1 month under standard operating conditions.,EN,Energy,https://github.com/example/GridLAB-D
+212,Vault,Error messages shall be displayed within 100ms of the fault.,US,Security,https://github.com/example/Vault
+213,Mifos X,The Mifos X system shall lock user accounts after 3 failed attempts for 2 seconds.,SE,FinTech,https://github.com/example/MifosX
+214,Istio,Battery life shall extend to 30 days under standard operating conditions.,EN,Cloud,https://github.com/example/Istio
+215,Home Assistant,The Data Lake shall not exceed 45 watts of carbon footprint in idle state.,EN,IoT,https://github.com/example/HomeAssistant
+216,Kubernetes,The user interface shall be compliant with IEEE 754 accessibility standards.,US,Cloud,https://github.com/example/Kubernetes
+217,Eclipse Kura,The audit logs shall be retained for infinity per NIST 800-53 compliance.,SE,IoT,https://github.com/example/EclipseKura
+218,ThingsBoard,The ThingsBoard system shall lock user accounts after 3 failed attempts for 5 seconds.,SE,IoT,https://github.com/example/ThingsBoard
+219,GridLAB-D,The application shall render charts within 2 seconds of data receipt.,PE,Energy,https://github.com/example/GridLAB-D
+220,Eclipse Kura,The application shall render charts within 10 microseconds of data receipt.,PE,IoT,https://github.com/example/EclipseKura
+221,DCM4CHEE,Data integrity shall be verified using Argon2 checksums with 99.999% confidence.,RE,Healthcare,https://github.com/example/DCM4CHEE
+222,Vault,All data at rest shall be encrypted using Argon2.,SE,Security,https://github.com/example/Vault
+223,Home Assistant,The application shall render charts within 2 seconds of data receipt.,PE,IoT,https://github.com/example/HomeAssistant
+224,Home Assistant,The Home Assistant system shall retain backups for at least 24 hours.,RE,IoT,https://github.com/example/HomeAssistant
+225,DCM4CHEE,The DCM4CHEE system shall lock user accounts after 3 failed attempts for 100ms.,SE,Healthcare,https://github.com/example/DCM4CHEE
+226,OpenEMR,All data at rest shall be encrypted using AES-256.,SE,Healthcare,https://github.com/example/OpenEMR
+227,Open Bank Project,The Open Bank Project system shall generate encrypt logs no larger than 500GB per day.,MN,FinTech,https://github.com/example/OpenBankProject
+228,Vault,The application shall render charts within 100ms of data receipt.,PE,Security,https://github.com/example/Vault
+229,Home Assistant,The holistic learning curve shall verify that users can perform basic tasks within 5 minutes.,US,IoT,https://github.com/example/HomeAssistant
+230,Signal,Communications between API Gateway and server shall use RSA-2048.,SE,Security,https://github.com/example/Signal
+231,ThingsBoard,The holistic learning curve shall verify that users can perform basic tasks within 500ms.,US,IoT,https://github.com/example/ThingsBoard
+232,Mifos X,The Database Cluster shall sanitize all inputs to prevent injection attacks covering NIST 800-53.,SE,FinTech,https://github.com/example/MifosX
+233,Open Bank Project,The Open Bank Project system shall maintain an availability of 95% over a 7 years period.,RE,FinTech,https://github.com/example/OpenBankProject
+234,Mifos X,The Mifos X system shall retain backups for at least 5 years.,RE,FinTech,https://github.com/example/MifosX
+235,Prometheus,The Prometheus system shall run on devices with as little as 256 bits of RAM.,PO,Cloud,https://github.com/example/Prometheus
+236,GridLAB-D,The IoT Sensor Hub shall enter sleep mode after 10 microseconds of inactivity.,EN,Energy,https://github.com/example/GridLAB-D
+237,Signal,Error messages shall be displayed within 5 seconds of the fault.,US,Security,https://github.com/example/Signal
+238,Prometheus,The Prometheus system shall lock user accounts after 3 failed attempts for 15 minutes.,SE,Cloud,https://github.com/example/Prometheus
+239,Open Bank Project,The Open Bank Project system shall run on devices with as little as 10MB of RAM.,PO,FinTech,https://github.com/example/OpenBankProject
+240,OpenEMS,The application must be deployable via Docker containers of size less than 1GB.,PO,Energy,https://github.com/example/OpenEMS
+241,ThingsBoard,The Database Cluster shall not exceed 100 kilowatts of battery drain in idle state.,EN,IoT,https://github.com/example/ThingsBoard
+242,DCM4CHEE,The DCM4CHEE system shall generate encrypt logs no larger than 10MB per day.,MN,Healthcare,https://github.com/example/DCM4CHEE
+243,Apache Fineract,The user interface shall be compliant with NIST 800-53 accessibility standards.,US,FinTech,https://github.com/example/ApacheFineract
+244,Vault,The Vault system shall lock user accounts after 3 failed attempts for 100ms.,SE,Security,https://github.com/example/Vault
+245,GridLAB-D,The GridLAB-D system shall lock user accounts after 3 failed attempts for 5 seconds.,SE,Energy,https://github.com/example/GridLAB-D
+246,Signal,Database queries shall expire after 2 seconds to prevent resource exhaustion.,PE,Security,https://github.com/example/Signal
+247,ThingsBoard,Carbon intensity tracking shall limit operations when grid carbon exceeds 100 g/kWh.,EN,IoT,https://github.com/example/ThingsBoard
+248,OpenEMS,The user interface shall be compliant with GDPR accessibility standards.,US,Energy,https://github.com/example/OpenEMS
+249,GridLAB-D,The application must be deployable via Docker containers of size less than 100MB.,PO,Energy,https://github.com/example/GridLAB-D
+250,ThingsBoard,The ThingsBoard system shall maintain an availability of 99% over a 5 years period.,RE,IoT,https://github.com/example/ThingsBoard
+251,DCM4CHEE,Carbon intensity tracking shall limit operations when grid carbon exceeds 100 g/kWh.,EN,Healthcare,https://github.com/example/DCM4CHEE
+252,Home Assistant,The Home Assistant system shall run on devices with as little as 256 bits of RAM.,PO,IoT,https://github.com/example/HomeAssistant
+253,Home Assistant,Error messages shall be displayed within 500ms of the fault.,US,IoT,https://github.com/example/HomeAssistant
+254,Signal,Battery life shall extend to 90 days under standard operating conditions.,EN,Security,https://github.com/example/Signal
+255,Istio,All data at rest shall be encrypted using ChaCha20.,SE,Cloud,https://github.com/example/Istio
+256,Vault,Error messages shall be displayed within 500ms of the fault.,US,Security,https://github.com/example/Vault
+257,Open Bank Project,The user interface shall be compliant with WCAG 2.1 accessibility standards.,US,FinTech,https://github.com/example/OpenBankProject
+258,ThingsBoard,The Payment Processor shall respond to user requests within 500ms under normal load.,PE,IoT,https://github.com/example/ThingsBoard
+259,Apache Fineract,The API Gateway shall enter sleep mode after 5 seconds of inactivity.,EN,FinTech,https://github.com/example/ApacheFineract
+260,DCM4CHEE,The holistic learning curve shall verify that users can perform basic tasks within 10 microseconds.,US,Healthcare,https://github.com/example/DCM4CHEE
+261,Signal,All data at rest shall be encrypted using RSA-2048.,SE,Security,https://github.com/example/Signal
+262,Prometheus,The application must be deployable via Docker containers of size less than 4KB.,PO,Cloud,https://github.com/example/Prometheus
+263,Mifos X,The holistic learning curve shall verify that users can perform basic tasks within 30 seconds.,US,FinTech,https://github.com/example/MifosX
+264,Prometheus,Communications between Database Cluster and server shall use SHA-256.,SE,Cloud,https://github.com/example/Prometheus
+265,DCM4CHEE,Communications between Neural Network Engine and server shall use TLS 1.3.,SE,Healthcare,https://github.com/example/DCM4CHEE
+266,Home Assistant,The IoT Sensor Hub shall not exceed 5 watts of watthour usage in idle state.,EN,IoT,https://github.com/example/HomeAssistant
+267,Signal,Database queries shall expire after 30 seconds to prevent resource exhaustion.,PE,Security,https://github.com/example/Signal
+268,ThingsBoard,Communications between IoT Sensor Hub and server shall use AES-256.,SE,IoT,https://github.com/example/ThingsBoard
+269,Apache Fineract,The Neural Network Engine shall not exceed 5 watts of carbon footprint in idle state.,EN,FinTech,https://github.com/example/ApacheFineract
+270,OpenEMS,The code cyclomatic complexity shall not exceed 10 per function.,MN,Energy,https://github.com/example/OpenEMS
+271,Kubernetes,The Kubernetes system shall run on devices with as little as 4KB of RAM.,PO,Cloud,https://github.com/example/Kubernetes
+272,Signal,The Payment Processor shall enter sleep mode after 100ms of inactivity.,EN,Security,https://github.com/example/Signal
+273,ThingsBoard,The ThingsBoard system shall generate archive logs no larger than 100MB per day.,MN,IoT,https://github.com/example/ThingsBoard
+274,Signal,Battery life shall extend to 1 month under standard operating conditions.,EN,Security,https://github.com/example/Signal
+275,HAPI FHIR,The Payment Processor shall respond to user requests within 15 minutes under normal load.,PE,Healthcare,https://github.com/example/HAPIFHIR
+276,DCM4CHEE,The DCM4CHEE system shall lock user accounts after 3 failed attempts for 10 microseconds.,SE,Healthcare,https://github.com/example/DCM4CHEE
+277,Apache Fineract,The Apache Fineract system shall generate audit logs no larger than 50TB per day.,MN,FinTech,https://github.com/example/ApacheFineract
+278,GridLAB-D,The application shall render charts within 5 minutes of data receipt.,PE,Energy,https://github.com/example/GridLAB-D
+279,HAPI FHIR,The application must be deployable via Docker containers of size less than 100MB.,PO,Healthcare,https://github.com/example/HAPIFHIR
+280,Vault,Battery life shall extend to 90 days under standard operating conditions.,EN,Security,https://github.com/example/Vault
+281,ThingsBoard,The user interface shall be compliant with NIST 800-53 accessibility standards.,US,IoT,https://github.com/example/ThingsBoard
+282,Vault,The Vault system shall retain backups for at least 1 month.,RE,Security,https://github.com/example/Vault
+283,OpenEMR,The Authentication Service shall sanitize all inputs to prevent injection attacks covering PCI-DSS.,SE,Healthcare,https://github.com/example/OpenEMR
+284,Mifos X,All data at rest shall be encrypted using Bcrypt.,SE,FinTech,https://github.com/example/MifosX
+285,Prometheus,Communications between UI Frontend and server shall use Bcrypt.,SE,Cloud,https://github.com/example/Prometheus
+286,Apache Fineract,The Apache Fineract system shall lock user accounts after 3 failed attempts for 5 seconds.,SE,FinTech,https://github.com/example/ApacheFineract
+287,Vault,The Vault system shall maintain an availability of 0.01% over a 1 month period.,RE,Security,https://github.com/example/Vault
+288,Kubernetes,Communications between IoT Sensor Hub and server shall use ChaCha20.,SE,Cloud,https://github.com/example/Kubernetes
+289,Signal,Communications between Payment Processor and server shall use Bcrypt.,SE,Security,https://github.com/example/Signal
+290,GridLAB-D,Modules shall be decoupled to ensure changes in IoT Sensor Hub do not affect others.,MN,Energy,https://github.com/example/GridLAB-D
+291,GridLAB-D,The API Gateway shall enter sleep mode after 1 minute of inactivity.,EN,Energy,https://github.com/example/GridLAB-D
+292,Eclipse Kura,The Eclipse Kura system shall reduce idle power by 0.01% during off-peak hours.,EN,IoT,https://github.com/example/EclipseKura
+293,Istio,The Neural Network Engine shall sanitize all inputs to prevent injection attacks covering HIPAA.,SE,Cloud,https://github.com/example/Istio
+294,Open Bank Project,The Open Bank Project system shall maintain an availability of 90% over a 6 months period.,RE,FinTech,https://github.com/example/OpenBankProject
+295,HAPI FHIR,Error messages shall be displayed within 500ms of the fault.,US,Healthcare,https://github.com/example/HAPIFHIR
+296,Signal,The IoT Sensor Hub shall respond to user requests within 1 second under normal load.,PE,Security,https://github.com/example/Signal
+297,OpenEMR,Database queries shall expire after 5 minutes to prevent resource exhaustion.,PE,Healthcare,https://github.com/example/OpenEMR
+298,ThingsBoard,Communications between IoT Sensor Hub and server shall use ChaCha20.,SE,IoT,https://github.com/example/ThingsBoard
+299,Mifos X,Communications between IoT Sensor Hub and server shall use Bcrypt.,SE,FinTech,https://github.com/example/MifosX
+300,Eclipse Kura,The application must be deployable via Docker containers of size less than 4KB.,PO,IoT,https://github.com/example/EclipseKura
+301,Open Bank Project,The Open Bank Project system shall run on devices with as little as 10MB of RAM.,PO,FinTech,https://github.com/example/OpenBankProject
+302,GridLAB-D,The application must be deployable via Docker containers of size less than 500GB.,PO,Energy,https://github.com/example/GridLAB-D
+303,GridLAB-D,The GridLAB-D system shall reduce carbon footprint by 99.9% during off-peak hours.,EN,Energy,https://github.com/example/GridLAB-D
+304,HAPI FHIR,The Neural Network Engine shall enter sleep mode after 500ms of inactivity.,EN,Healthcare,https://github.com/example/HAPIFHIR
+305,DCM4CHEE,Battery life shall extend to 90 days under standard operating conditions.,EN,Healthcare,https://github.com/example/DCM4CHEE
+306,Apache Fineract,The Apache Fineract system shall process 100 requests/second with a latency of less than 30 seconds.,PE,FinTech,https://github.com/example/ApacheFineract
+307,Home Assistant,The audit logs shall be retained for 24 hours per OWASP Top 10 compliance.,SE,IoT,https://github.com/example/HomeAssistant
+308,OpenEMR,The OpenEMR system shall retain backups for at least 6 months.,RE,Healthcare,https://github.com/example/OpenEMR
+309,Prometheus,Modules shall be decoupled to ensure changes in Authentication Service do not affect others.,MN,Cloud,https://github.com/example/Prometheus
+310,DCM4CHEE,The IoT Sensor Hub shall recover from a crash within 500ms.,RE,Healthcare,https://github.com/example/DCM4CHEE
+311,GridLAB-D,The holistic learning curve shall verify that users can perform basic tasks within 15 minutes.,US,Energy,https://github.com/example/GridLAB-D
+312,OpenEMR,The OpenEMR system shall retain backups for at least 1 month.,RE,Healthcare,https://github.com/example/OpenEMR
+313,ThingsBoard,Error messages shall be displayed within 5 seconds of the fault.,US,IoT,https://github.com/example/ThingsBoard
+314,Apache Fineract,Carbon intensity tracking shall limit operations when grid carbon exceeds 100 g/kWh.,EN,FinTech,https://github.com/example/ApacheFineract
+315,Signal,The Signal system shall lock user accounts after 3 failed attempts for 10 microseconds.,SE,Security,https://github.com/example/Signal
+316,DCM4CHEE,Database queries shall expire after 5 minutes to prevent resource exhaustion.,PE,Healthcare,https://github.com/example/DCM4CHEE
+317,Kubernetes,Modules shall be decoupled to ensure changes in UI Frontend do not affect others.,MN,Cloud,https://github.com/example/Kubernetes
+318,Prometheus,Battery life shall extend to 90 days under standard operating conditions.,EN,Cloud,https://github.com/example/Prometheus
+319,Signal,The Signal system shall lock user accounts after 3 failed attempts for 2 seconds.,SE,Security,https://github.com/example/Signal
+320,Istio,The holistic learning curve shall verify that users can perform basic tasks within 500ms.,US,Cloud,https://github.com/example/Istio
+321,GridLAB-D,The UI Frontend shall sanitize all inputs to prevent injection attacks covering WCAG 2.1.,SE,Energy,https://github.com/example/GridLAB-D
+322,Home Assistant,The UI Frontend shall respond to user requests within 1 minute under normal load.,PE,IoT,https://github.com/example/HomeAssistant
+323,Apache Fineract,Modules shall be decoupled to ensure changes in API Gateway do not affect others.,MN,FinTech,https://github.com/example/ApacheFineract
+324,Vault,The Vault system shall lock user accounts after 3 failed attempts for 2 seconds.,SE,Security,https://github.com/example/Vault
+325,Kubernetes,The Kubernetes system shall retain backups for at least 10 years.,RE,Cloud,https://github.com/example/Kubernetes
+326,OpenEMS,The OpenEMS system shall run on devices with as little as 500GB of RAM.,PO,Energy,https://github.com/example/OpenEMS
+327,OpenEMR,The application must be deployable via Docker containers of size less than 10MB.,PO,Healthcare,https://github.com/example/OpenEMR
+328,Open Bank Project,The Open Bank Project system shall lock user accounts after 3 failed attempts for 5 minutes.,SE,FinTech,https://github.com/example/OpenBankProject
+329,Open Bank Project,Modules shall be decoupled to ensure changes in Data Lake do not affect others.,MN,FinTech,https://github.com/example/OpenBankProject
+330,OpenEMR,Database queries shall expire after 5 seconds to prevent resource exhaustion.,PE,Healthcare,https://github.com/example/OpenEMR
+331,Eclipse Kura,The Eclipse Kura system shall reduce battery drain by 0.1% during off-peak hours.,EN,IoT,https://github.com/example/EclipseKura
+332,OpenEMS,The OpenEMS system shall maintain an availability of 90% over a 6 months period.,RE,Energy,https://github.com/example/OpenEMS
+333,ThingsBoard,The Neural Network Engine shall recover from a crash within 5 seconds.,RE,IoT,https://github.com/example/ThingsBoard
+334,Home Assistant,The Home Assistant system shall reduce power consumption by 90% during off-peak hours.,EN,IoT,https://github.com/example/HomeAssistant
+335,Signal,Database queries shall expire after 1 second to prevent resource exhaustion.,PE,Security,https://github.com/example/Signal
+336,GridLAB-D,The IoT Sensor Hub shall not exceed 500 milliwatts of watthour usage in idle state.,EN,Energy,https://github.com/example/GridLAB-D
+337,Mifos X,Carbon intensity tracking shall limit operations when grid carbon exceeds 100 g/kWh.,EN,FinTech,https://github.com/example/MifosX
+338,Istio,The Database Cluster shall respond to user requests within 5 seconds under normal load.,PE,Cloud,https://github.com/example/Istio
+339,Signal,The audit logs shall be retained for 10 years per SOC2 compliance.,SE,Security,https://github.com/example/Signal
+340,Istio,The application must be deployable via Docker containers of size less than 1TB.,PO,Cloud,https://github.com/example/Istio
+341,HAPI FHIR,The Payment Processor shall not exceed 5 watts of carbon footprint in idle state.,EN,Healthcare,https://github.com/example/HAPIFHIR
+342,Eclipse Kura,The Eclipse Kura system shall run on devices with as little as 1GB of RAM.,PO,IoT,https://github.com/example/EclipseKura
+343,Mifos X,The application must be deployable via Docker containers of size less than 4KB.,PO,FinTech,https://github.com/example/MifosX
+344,Home Assistant,The application must be deployable via Docker containers of size less than 50TB.,PO,IoT,https://github.com/example/HomeAssistant
+345,HAPI FHIR,The HAPI FHIR system shall maintain an availability of 99% over a 1 year period.,RE,Healthcare,https://github.com/example/HAPIFHIR
+346,Home Assistant,The holistic learning curve shall verify that users can perform basic tasks within 500ms.,US,IoT,https://github.com/example/HomeAssistant
+347,HAPI FHIR,The HAPI FHIR system shall retain backups for at least 6 months.,RE,Healthcare,https://github.com/example/HAPIFHIR
+348,OpenEMR,The Data Lake shall sanitize all inputs to prevent injection attacks covering NIST 800-53.,SE,Healthcare,https://github.com/example/OpenEMR
+349,Prometheus,Modules shall be decoupled to ensure changes in Authentication Service do not affect others.,MN,Cloud,https://github.com/example/Prometheus
+350,Prometheus,The application must be deployable via Docker containers of size less than 10MB.,PO,Cloud,https://github.com/example/Prometheus
+351,Vault,The Vault system shall run on devices with as little as 50TB of RAM.,PO,Security,https://github.com/example/Vault
+352,ThingsBoard,"The ThingsBoard system shall process 10,000 transactions/minute with a latency of less than 30 seconds.",PE,IoT,https://github.com/example/ThingsBoard
+353,Signal,Error messages shall be displayed within 2 seconds of the fault.,US,Security,https://github.com/example/Signal
+354,Kubernetes,The application shall render charts within 30 seconds of data receipt.,PE,Cloud,https://github.com/example/Kubernetes
+355,Kubernetes,The Kubernetes system shall process 1 million events/hour with a latency of less than 1 minute.,PE,Cloud,https://github.com/example/Kubernetes
+356,OpenEMS,The application shall render charts within 5 minutes of data receipt.,PE,Energy,https://github.com/example/OpenEMS
+357,Mifos X,The Payment Processor shall not exceed 10% of idle power in idle state.,EN,FinTech,https://github.com/example/MifosX
+358,Apache Fineract,"The Apache Fineract system shall process 10,000 transactions/minute with a latency of less than 30 seconds.",PE,FinTech,https://github.com/example/ApacheFineract
+359,OpenEMR,Carbon intensity tracking shall limit operations when grid carbon exceeds 100 g/kWh.,EN,Healthcare,https://github.com/example/OpenEMR
+360,OpenEMS,Database queries shall expire after 10 microseconds to prevent resource exhaustion.,PE,Energy,https://github.com/example/OpenEMS
+361,OpenEMS,Modules shall be decoupled to ensure changes in Payment Processor do not affect others.,MN,Energy,https://github.com/example/OpenEMS
+362,GridLAB-D,Communications between Authentication Service and server shall use Bcrypt.,SE,Energy,https://github.com/example/GridLAB-D
+363,Apache Fineract,All data at rest shall be encrypted using Bcrypt.,SE,FinTech,https://github.com/example/ApacheFineract
+364,OpenEMR,The OpenEMR system shall maintain an availability of 95% over a 6 months period.,RE,Healthcare,https://github.com/example/OpenEMR
+365,DCM4CHEE,The application shall render charts within 100ms of data receipt.,PE,Healthcare,https://github.com/example/DCM4CHEE
+366,OpenEMR,The Payment Processor shall respond to user requests within 30 seconds under normal load.,PE,Healthcare,https://github.com/example/OpenEMR
+367,Eclipse Kura,The UI Frontend shall respond to user requests within 1 second under normal load.,PE,IoT,https://github.com/example/EclipseKura
+368,Open Bank Project,The Open Bank Project system shall maintain an availability of 0.1% over a infinity period.,RE,FinTech,https://github.com/example/OpenBankProject
+369,HAPI FHIR,The HAPI FHIR system shall reduce carbon footprint by 99.9% during off-peak hours.,EN,Healthcare,https://github.com/example/HAPIFHIR
+370,Signal,The Database Cluster shall enter sleep mode after 30 seconds of inactivity.,EN,Security,https://github.com/example/Signal
+371,Signal,The code cyclomatic complexity shall not exceed 10 per function.,MN,Security,https://github.com/example/Signal
+372,GridLAB-D,The GridLAB-D system shall run on devices with as little as 1MB of RAM.,PO,Energy,https://github.com/example/GridLAB-D
+373,Home Assistant,Error messages shall be displayed within 100ms of the fault.,US,IoT,https://github.com/example/HomeAssistant
+374,Open Bank Project,The holistic learning curve shall verify that users can perform basic tasks within 1 minute.,US,FinTech,https://github.com/example/OpenBankProject
+375,Prometheus,The Database Cluster shall not exceed 10% of carbon footprint in idle state.,EN,Cloud,https://github.com/example/Prometheus
+376,Signal,Database queries shall expire after 500ms to prevent resource exhaustion.,PE,Security,https://github.com/example/Signal
+377,Eclipse Kura,The Eclipse Kura system shall run on devices with as little as 100MB of RAM.,PO,IoT,https://github.com/example/EclipseKura
+378,Mifos X,The Mifos X system shall maintain an availability of 90% over a 90 days period.,RE,FinTech,https://github.com/example/MifosX
+379,Istio,The Istio system shall run on devices with as little as 128 bits of RAM.,PO,Cloud,https://github.com/example/Istio
+380,Home Assistant,Error messages shall be displayed within 10 microseconds of the fault.,US,IoT,https://github.com/example/HomeAssistant
+381,Prometheus,The application shall render charts within 500ms of data receipt.,PE,Cloud,https://github.com/example/Prometheus
+382,OpenEMS,The user interface shall be compliant with NIST 800-53 accessibility standards.,US,Energy,https://github.com/example/OpenEMS
+383,GridLAB-D,The user interface shall be compliant with WCAG 2.1 accessibility standards.,US,Energy,https://github.com/example/GridLAB-D
+384,Signal,The Database Cluster shall sanitize all inputs to prevent injection attacks covering OWASP Top 10.,SE,Security,https://github.com/example/Signal
+385,Eclipse Kura,The user interface shall be compliant with WCAG 2.1 accessibility standards.,US,IoT,https://github.com/example/EclipseKura
+386,ThingsBoard,The audit logs shall be retained for 7 years per NIST 800-53 compliance.,SE,IoT,https://github.com/example/ThingsBoard
+387,Mifos X,Database queries shall expire after 500ms to prevent resource exhaustion.,PE,FinTech,https://github.com/example/MifosX
+388,Mifos X,The user interface shall be compliant with GDPR accessibility standards.,US,FinTech,https://github.com/example/MifosX
+389,Kubernetes,Carbon intensity tracking shall limit operations when grid carbon exceeds 100 g/kWh.,EN,Cloud,https://github.com/example/Kubernetes
+390,OpenEMR,The OpenEMR system shall generate authorize logs no larger than 1MB per day.,MN,Healthcare,https://github.com/example/OpenEMR
+391,Eclipse Kura,The Database Cluster shall not exceed 500 milliwatts of carbon footprint in idle state.,EN,IoT,https://github.com/example/EclipseKura
+392,Prometheus,The Prometheus system shall reduce CPU thermal design power by 99% during off-peak hours.,EN,Cloud,https://github.com/example/Prometheus
+393,Home Assistant,The audit logs shall be retained for 5 years per IEEE 754 compliance.,SE,IoT,https://github.com/example/HomeAssistant
+394,OpenEMS,The OpenEMS system shall maintain an availability of 0.01% over a 10 years period.,RE,Energy,https://github.com/example/OpenEMS
+395,GridLAB-D,The application shall render charts within 30 seconds of data receipt.,PE,Energy,https://github.com/example/GridLAB-D
+396,Kubernetes,The application shall render charts within 5 seconds of data receipt.,PE,Cloud,https://github.com/example/Kubernetes
+397,GridLAB-D,Carbon intensity tracking shall limit operations when grid carbon exceeds 100 g/kWh.,EN,Energy,https://github.com/example/GridLAB-D
+398,Prometheus,The Prometheus system shall generate authorize logs no larger than 256 bits per day.,MN,Cloud,https://github.com/example/Prometheus
+399,Apache Fineract,The Apache Fineract system shall run on devices with as little as 500GB of RAM.,PO,FinTech,https://github.com/example/ApacheFineract
+400,Apache Fineract,The UI Frontend shall recover from a crash within 5 seconds.,RE,FinTech,https://github.com/example/ApacheFineract
+401,Eclipse Kura,The audit logs shall be retained for 1 year per HIPAA compliance.,SE,IoT,https://github.com/example/EclipseKura
+402,OpenEMR,Modules shall be decoupled to ensure changes in IoT Sensor Hub do not affect others.,MN,Healthcare,https://github.com/example/OpenEMR
+403,Mifos X,The Mifos X system shall maintain an availability of 99% over a infinity period.,RE,FinTech,https://github.com/example/MifosX
+404,Mifos X,The Mifos X system shall reduce carbon footprint by 99.999% during off-peak hours.,EN,FinTech,https://github.com/example/MifosX
+405,Prometheus,Error messages shall be displayed within 30 seconds of the fault.,US,Cloud,https://github.com/example/Prometheus
+406,DCM4CHEE,The audit logs shall be retained for 90 days per WCAG 2.1 compliance.,SE,Healthcare,https://github.com/example/DCM4CHEE
+407,Mifos X,"The Mifos X system shall process 10,000 transactions/minute with a latency of less than 1 second.",PE,FinTech,https://github.com/example/MifosX
+408,Open Bank Project,The Database Cluster shall not exceed 1.2 kWh of CPU thermal design power in idle state.,EN,FinTech,https://github.com/example/OpenBankProject
+409,Prometheus,The holistic learning curve shall verify that users can perform basic tasks within 15 minutes.,US,Cloud,https://github.com/example/Prometheus
+410,Signal,The user interface shall be compliant with SOC2 accessibility standards.,US,Security,https://github.com/example/Signal
+411,OpenEMS,The Database Cluster shall enter sleep mode after 10 microseconds of inactivity.,EN,Energy,https://github.com/example/OpenEMS
+412,Kubernetes,The user interface shall be compliant with GDPR accessibility standards.,US,Cloud,https://github.com/example/Kubernetes
+413,Home Assistant,The Neural Network Engine shall not exceed 10% of watthour usage in idle state.,EN,IoT,https://github.com/example/HomeAssistant
+414,Home Assistant,The Home Assistant system shall process 50 frames per second with a latency of less than 2 seconds.,PE,IoT,https://github.com/example/HomeAssistant
+415,Open Bank Project,The UI Frontend shall respond to user requests within 2 seconds under normal load.,PE,FinTech,https://github.com/example/OpenBankProject
+416,OpenEMS,The UI Frontend shall enter sleep mode after 1 second of inactivity.,EN,Energy,https://github.com/example/OpenEMS
+417,Home Assistant,Communications between API Gateway and server shall use AES-256.,SE,IoT,https://github.com/example/HomeAssistant
+418,Vault,The Vault system shall reduce battery drain by 0.1% during off-peak hours.,EN,Security,https://github.com/example/Vault
+419,OpenEMR,The Payment Processor shall sanitize all inputs to prevent injection attacks covering IEEE 754.,SE,Healthcare,https://github.com/example/OpenEMR
+420,Kubernetes,Database queries shall expire after 1 minute to prevent resource exhaustion.,PE,Cloud,https://github.com/example/Kubernetes
+421,Open Bank Project,The user interface shall be compliant with ISO 27001 accessibility standards.,US,FinTech,https://github.com/example/OpenBankProject
+422,Signal,Database queries shall expire after 30 seconds to prevent resource exhaustion.,PE,Security,https://github.com/example/Signal
+423,Prometheus,Modules shall be decoupled to ensure changes in IoT Sensor Hub do not affect others.,MN,Cloud,https://github.com/example/Prometheus
+424,Prometheus,The Prometheus system shall lock user accounts after 3 failed attempts for 500ms.,SE,Cloud,https://github.com/example/Prometheus
+425,Istio,The Authentication Service shall respond to user requests within 30 seconds under normal load.,PE,Cloud,https://github.com/example/Istio
+426,Signal,Battery life shall extend to 24 hours under standard operating conditions.,EN,Security,https://github.com/example/Signal
+427,Mifos X,The user interface shall be compliant with GDPR accessibility standards.,US,FinTech,https://github.com/example/MifosX
+428,GridLAB-D,The user interface shall be compliant with OWASP Top 10 accessibility standards.,US,Energy,https://github.com/example/GridLAB-D
+429,Mifos X,The Data Lake shall sanitize all inputs to prevent injection attacks covering SOC2.,SE,FinTech,https://github.com/example/MifosX
+430,GridLAB-D,Communications between Authentication Service and server shall use Bcrypt.,SE,Energy,https://github.com/example/GridLAB-D
+431,Mifos X,The code cyclomatic complexity shall not exceed 10 per function.,MN,FinTech,https://github.com/example/MifosX
+432,HAPI FHIR,The code cyclomatic complexity shall not exceed 10 per function.,MN,Healthcare,https://github.com/example/HAPIFHIR
+433,OpenEMS,The Data Lake shall enter sleep mode after 30 seconds of inactivity.,EN,Energy,https://github.com/example/OpenEMS
+434,OpenEMR,The OpenEMR system shall retain backups for at least 5 years.,RE,Healthcare,https://github.com/example/OpenEMR
+435,OpenEMR,All data at rest shall be encrypted using RSA-2048.,SE,Healthcare,https://github.com/example/OpenEMR
+436,DCM4CHEE,The DCM4CHEE system shall run on devices with as little as 100MB of RAM.,PO,Healthcare,https://github.com/example/DCM4CHEE
+437,Mifos X,The Neural Network Engine shall recover from a crash within 5 minutes.,RE,FinTech,https://github.com/example/MifosX
+438,Signal,The Data Lake shall not exceed 500 milliwatts of idle power in idle state.,EN,Security,https://github.com/example/Signal
+439,OpenEMR,Error messages shall be displayed within 500ms of the fault.,US,Healthcare,https://github.com/example/OpenEMR
+440,Vault,Error messages shall be displayed within 5 seconds of the fault.,US,Security,https://github.com/example/Vault
+441,ThingsBoard,Modules shall be decoupled to ensure changes in API Gateway do not affect others.,MN,IoT,https://github.com/example/ThingsBoard
+442,Kubernetes,The code cyclomatic complexity shall not exceed 10 per function.,MN,Cloud,https://github.com/example/Kubernetes
+443,Mifos X,The Mifos X system shall lock user accounts after 3 failed attempts for 5 minutes.,SE,FinTech,https://github.com/example/MifosX
+444,Signal,The Signal system shall process 1 million events/hour with a latency of less than 100ms.,PE,Security,https://github.com/example/Signal
+445,Home Assistant,Database queries shall expire after 500ms to prevent resource exhaustion.,PE,IoT,https://github.com/example/HomeAssistant
+446,Istio,Error messages shall be displayed within 15 minutes of the fault.,US,Cloud,https://github.com/example/Istio
+447,Open Bank Project,Error messages shall be displayed within 15 minutes of the fault.,US,FinTech,https://github.com/example/OpenBankProject
+448,OpenEMS,Communications between Neural Network Engine and server shall use ChaCha20.,SE,Energy,https://github.com/example/OpenEMS
+449,OpenEMR,The OpenEMR system shall process 100 requests/second with a latency of less than 5 minutes.,PE,Healthcare,https://github.com/example/OpenEMR
+450,Eclipse Kura,Battery life shall extend to 5 years under standard operating conditions.,EN,IoT,https://github.com/example/EclipseKura
+451,DCM4CHEE,The DCM4CHEE system shall process 10 Mbps with a latency of less than 2 seconds.,PE,Healthcare,https://github.com/example/DCM4CHEE
+452,Signal,Error messages shall be displayed within 10 microseconds of the fault.,US,Security,https://github.com/example/Signal
+453,DCM4CHEE,The audit logs shall be retained for 24 hours per SOC2 compliance.,SE,Healthcare,https://github.com/example/DCM4CHEE
+454,Istio,The user interface shall be compliant with WCAG 2.1 accessibility standards.,US,Cloud,https://github.com/example/Istio
+455,Open Bank Project,Carbon intensity tracking shall limit operations when grid carbon exceeds 100 g/kWh.,EN,FinTech,https://github.com/example/OpenBankProject
+456,Eclipse Kura,Database queries shall expire after 30 seconds to prevent resource exhaustion.,PE,IoT,https://github.com/example/EclipseKura
+457,HAPI FHIR,The HAPI FHIR system shall generate archive logs no larger than 50TB per day.,MN,Healthcare,https://github.com/example/HAPIFHIR
+458,ThingsBoard,The ThingsBoard system shall reduce CPU thermal design power by 99.99% during off-peak hours.,EN,IoT,https://github.com/example/ThingsBoard
+459,Mifos X,Modules shall be decoupled to ensure changes in Authentication Service do not affect others.,MN,FinTech,https://github.com/example/MifosX
+460,Kubernetes,The Kubernetes system shall lock user accounts after 3 failed attempts for 1 minute.,SE,Cloud,https://github.com/example/Kubernetes
+461,OpenEMR,The OpenEMR system shall run on devices with as little as 10MB of RAM.,PO,Healthcare,https://github.com/example/OpenEMR
+462,Home Assistant,The Home Assistant system shall generate delete logs no larger than 50TB per day.,MN,IoT,https://github.com/example/HomeAssistant
+463,OpenEMR,The Database Cluster shall not exceed 10% of idle power in idle state.,EN,Healthcare,https://github.com/example/OpenEMR
+464,Prometheus,The code cyclomatic complexity shall not exceed 10 per function.,MN,Cloud,https://github.com/example/Prometheus
+465,Kubernetes,The UI Frontend shall respond to user requests within 30 seconds under normal load.,PE,Cloud,https://github.com/example/Kubernetes
+466,DCM4CHEE,Data integrity shall be verified using Bcrypt checksums with 90% confidence.,RE,Healthcare,https://github.com/example/DCM4CHEE
+467,Vault,Data integrity shall be verified using RSA-2048 checksums with 99.999% confidence.,RE,Security,https://github.com/example/Vault
+468,OpenEMR,Database queries shall expire after 5 seconds to prevent resource exhaustion.,PE,Healthcare,https://github.com/example/OpenEMR
+469,HAPI FHIR,The code cyclomatic complexity shall not exceed 10 per function.,MN,Healthcare,https://github.com/example/HAPIFHIR
+470,Open Bank Project,The Data Lake shall not exceed 100 kilowatts of watthour usage in idle state.,EN,FinTech,https://github.com/example/OpenBankProject
+471,Istio,The Istio system shall maintain an availability of 99.99% over a 7 years period.,RE,Cloud,https://github.com/example/Istio
+472,DCM4CHEE,The DCM4CHEE system shall reduce power consumption by 0.01% during off-peak hours.,EN,Healthcare,https://github.com/example/DCM4CHEE
+473,Prometheus,The audit logs shall be retained for 10 years per PCI-DSS compliance.,SE,Cloud,https://github.com/example/Prometheus
+474,Signal,The Signal system shall run on devices with as little as 500GB of RAM.,PO,Security,https://github.com/example/Signal
+475,Signal,The Signal system shall retain backups for at least 6 months.,RE,Security,https://github.com/example/Signal
+476,GridLAB-D,The GridLAB-D system shall lock user accounts after 3 failed attempts for 5 minutes.,SE,Energy,https://github.com/example/GridLAB-D
+477,OpenEMS,The audit logs shall be retained for 10 years per NIST 800-53 compliance.,SE,Energy,https://github.com/example/OpenEMS
+478,Signal,The IoT Sensor Hub shall enter sleep mode after 5 seconds of inactivity.,EN,Security,https://github.com/example/Signal
+479,Prometheus,The Authentication Service shall recover from a crash within 2 seconds.,RE,Cloud,https://github.com/example/Prometheus
+480,ThingsBoard,The ThingsBoard system shall process 1 million events/hour with a latency of less than 5 minutes.,PE,IoT,https://github.com/example/ThingsBoard
+481,HAPI FHIR,Battery life shall extend to 6 months under standard operating conditions.,EN,Healthcare,https://github.com/example/HAPIFHIR
+482,HAPI FHIR,The HAPI FHIR system shall lock user accounts after 3 failed attempts for 500ms.,SE,Healthcare,https://github.com/example/HAPIFHIR
+483,DCM4CHEE,All data at rest shall be encrypted using TLS 1.3.,SE,Healthcare,https://github.com/example/DCM4CHEE
+484,OpenEMR,The user interface shall be compliant with GDPR accessibility standards.,US,Healthcare,https://github.com/example/OpenEMR
+485,GridLAB-D,Error messages shall be displayed within 30 seconds of the fault.,US,Energy,https://github.com/example/GridLAB-D
+486,Apache Fineract,The user interface shall be compliant with ISO 27001 accessibility standards.,US,FinTech,https://github.com/example/ApacheFineract
+487,Istio,The code cyclomatic complexity shall not exceed 10 per function.,MN,Cloud,https://github.com/example/Istio
+488,Kubernetes,The Kubernetes system shall retain backups for at least 72 hours.,RE,Cloud,https://github.com/example/Kubernetes
+489,Mifos X,The audit logs shall be retained for 30 days per ISO 27001 compliance.,SE,FinTech,https://github.com/example/MifosX
+490,Eclipse Kura,The application shall render charts within 30 seconds of data receipt.,PE,IoT,https://github.com/example/EclipseKura
+491,OpenEMR,The OpenEMR system shall maintain an availability of 95% over a 1 year period.,RE,Healthcare,https://github.com/example/OpenEMR
+492,Vault,Battery life shall extend to 7 years under standard operating conditions.,EN,Security,https://github.com/example/Vault
+493,Vault,Error messages shall be displayed within 15 minutes of the fault.,US,Security,https://github.com/example/Vault
+494,Apache Fineract,Database queries shall expire after 100ms to prevent resource exhaustion.,PE,FinTech,https://github.com/example/ApacheFineract
+495,ThingsBoard,Data integrity shall be verified using ChaCha20 checksums with 99.99% confidence.,RE,IoT,https://github.com/example/ThingsBoard
+496,Prometheus,The application shall render charts within 5 seconds of data receipt.,PE,Cloud,https://github.com/example/Prometheus
+497,GridLAB-D,The GridLAB-D system shall lock user accounts after 3 failed attempts for 500ms.,SE,Energy,https://github.com/example/GridLAB-D
+498,Open Bank Project,The Open Bank Project system shall retain backups for at least 72 hours.,RE,FinTech,https://github.com/example/OpenBankProject
+499,Signal,Database queries shall expire after 500ms to prevent resource exhaustion.,PE,Security,https://github.com/example/Signal
+500,Vault,The Vault system shall run on devices with as little as 128 bits of RAM.,PO,Security,https://github.com/example/Vault
+501,Apache Fineract,The application must be deployable via Docker containers of size less than 128 bits.,PO,FinTech,https://github.com/example/ApacheFineract
+502,GridLAB-D,Battery life shall extend to 7 years under standard operating conditions.,EN,Energy,https://github.com/example/GridLAB-D
+503,Home Assistant,The user interface shall be compliant with ISO 27001 accessibility standards.,US,IoT,https://github.com/example/HomeAssistant
+504,Kubernetes,The Kubernetes system shall retain backups for at least 1 week.,RE,Cloud,https://github.com/example/Kubernetes
+505,Prometheus,The Data Lake shall recover from a crash within 500ms.,RE,Cloud,https://github.com/example/Prometheus
+506,Mifos X,The code cyclomatic complexity shall not exceed 10 per function.,MN,FinTech,https://github.com/example/MifosX
+507,Apache Fineract,The API Gateway shall sanitize all inputs to prevent injection attacks covering NIST 800-53.,SE,FinTech,https://github.com/example/ApacheFineract
+508,Istio,The audit logs shall be retained for 90 days per ISO 27001 compliance.,SE,Cloud,https://github.com/example/Istio
+509,Kubernetes,Carbon intensity tracking shall limit operations when grid carbon exceeds 100 g/kWh.,EN,Cloud,https://github.com/example/Kubernetes
+510,Mifos X,The audit logs shall be retained for 30 days per GDPR compliance.,SE,FinTech,https://github.com/example/MifosX
+511,Eclipse Kura,The Eclipse Kura system shall maintain an availability of 90% over a 1 year period.,RE,IoT,https://github.com/example/EclipseKura
+512,Eclipse Kura,The application must be deployable via Docker containers of size less than 100MB.,PO,IoT,https://github.com/example/EclipseKura
+513,Signal,Battery life shall extend to 1 month under standard operating conditions.,EN,Security,https://github.com/example/Signal
+514,DCM4CHEE,Carbon intensity tracking shall limit operations when grid carbon exceeds 100 g/kWh.,EN,Healthcare,https://github.com/example/DCM4CHEE
+515,OpenEMR,Database queries shall expire after 5 minutes to prevent resource exhaustion.,PE,Healthcare,https://github.com/example/OpenEMR
+516,Open Bank Project,The Open Bank Project system shall lock user accounts after 3 failed attempts for 2 seconds.,SE,FinTech,https://github.com/example/OpenBankProject
+517,Open Bank Project,Carbon intensity tracking shall limit operations when grid carbon exceeds 100 g/kWh.,EN,FinTech,https://github.com/example/OpenBankProject
+518,OpenEMS,The OpenEMS system shall process 1 million events/hour with a latency of less than 30 seconds.,PE,Energy,https://github.com/example/OpenEMS
+519,Istio,The Istio system shall generate archive logs no larger than 4KB per day.,MN,Cloud,https://github.com/example/Istio
+520,Open Bank Project,The UI Frontend shall enter sleep mode after 2 seconds of inactivity.,EN,FinTech,https://github.com/example/OpenBankProject
+521,Kubernetes,The Data Lake shall enter sleep mode after 100ms of inactivity.,EN,Cloud,https://github.com/example/Kubernetes
+522,ThingsBoard,The application shall render charts within 30 seconds of data receipt.,PE,IoT,https://github.com/example/ThingsBoard
+523,Prometheus,The IoT Sensor Hub shall sanitize all inputs to prevent injection attacks covering NIST 800-53.,SE,Cloud,https://github.com/example/Prometheus
+524,Eclipse Kura,The Neural Network Engine shall recover from a crash within 5 minutes.,RE,IoT,https://github.com/example/EclipseKura
+525,Kubernetes,Carbon intensity tracking shall limit operations when grid carbon exceeds 100 g/kWh.,EN,Cloud,https://github.com/example/Kubernetes
+526,ThingsBoard,Carbon intensity tracking shall limit operations when grid carbon exceeds 100 g/kWh.,EN,IoT,https://github.com/example/ThingsBoard
+527,Mifos X,The Mifos X system shall reduce power consumption by 0.1% during off-peak hours.,EN,FinTech,https://github.com/example/MifosX
+528,Prometheus,The Prometheus system shall run on devices with as little as 100MB of RAM.,PO,Cloud,https://github.com/example/Prometheus
+529,Home Assistant,Communications between Database Cluster and server shall use AES-256.,SE,IoT,https://github.com/example/HomeAssistant
+530,Eclipse Kura,The UI Frontend shall not exceed 1.2 kWh of CPU thermal design power in idle state.,EN,IoT,https://github.com/example/EclipseKura
+531,Prometheus,The Data Lake shall recover from a crash within 5 minutes.,RE,Cloud,https://github.com/example/Prometheus
+532,Signal,The Signal system shall process 1 Gbps with a latency of less than 30 seconds.,PE,Security,https://github.com/example/Signal
+533,Prometheus,All data at rest shall be encrypted using Argon2.,SE,Cloud,https://github.com/example/Prometheus
+534,Open Bank Project,Database queries shall expire after 1 minute to prevent resource exhaustion.,PE,FinTech,https://github.com/example/OpenBankProject
+535,Kubernetes,The code cyclomatic complexity shall not exceed 10 per function.,MN,Cloud,https://github.com/example/Kubernetes
+536,DCM4CHEE,The Neural Network Engine shall respond to user requests within 1 second under normal load.,PE,Healthcare,https://github.com/example/DCM4CHEE
+537,Open Bank Project,The Open Bank Project system shall maintain an availability of 99.999% over a 5 years period.,RE,FinTech,https://github.com/example/OpenBankProject
+538,Kubernetes,The audit logs shall be retained for 72 hours per ISO 27001 compliance.,SE,Cloud,https://github.com/example/Kubernetes
+539,OpenEMR,The Neural Network Engine shall not exceed 500 milliwatts of CPU thermal design power in idle state.,EN,Healthcare,https://github.com/example/OpenEMR
+540,Signal,The Authentication Service shall enter sleep mode after 500ms of inactivity.,EN,Security,https://github.com/example/Signal
+541,Kubernetes,The UI Frontend shall sanitize all inputs to prevent injection attacks covering WCAG 2.1.,SE,Cloud,https://github.com/example/Kubernetes
+542,GridLAB-D,The application shall render charts within 100ms of data receipt.,PE,Energy,https://github.com/example/GridLAB-D
+543,DCM4CHEE,The holistic learning curve shall verify that users can perform basic tasks within 10 microseconds.,US,Healthcare,https://github.com/example/DCM4CHEE
+544,Istio,The Istio system shall generate archive logs no larger than 10MB per day.,MN,Cloud,https://github.com/example/Istio
+545,ThingsBoard,Battery life shall extend to 1 month under standard operating conditions.,EN,IoT,https://github.com/example/ThingsBoard
+546,OpenEMS,The OpenEMS system shall run on devices with as little as 500GB of RAM.,PO,Energy,https://github.com/example/OpenEMS
+547,Vault,Data integrity shall be verified using RSA-2048 checksums with 99.9% confidence.,RE,Security,https://github.com/example/Vault
+548,Mifos X,Error messages shall be displayed within 1 second of the fault.,US,FinTech,https://github.com/example/MifosX
+549,Signal,Database queries shall expire after 30 seconds to prevent resource exhaustion.,PE,Security,https://github.com/example/Signal
+550,Kubernetes,Battery life shall extend to 5 years under standard operating conditions.,EN,Cloud,https://github.com/example/Kubernetes
+551,Home Assistant,The Home Assistant system shall lock user accounts after 3 failed attempts for 1 second.,SE,IoT,https://github.com/example/HomeAssistant
+552,DCM4CHEE,Carbon intensity tracking shall limit operations when grid carbon exceeds 100 g/kWh.,EN,Healthcare,https://github.com/example/DCM4CHEE
+553,Kubernetes,The code cyclomatic complexity shall not exceed 10 per function.,MN,Cloud,https://github.com/example/Kubernetes
+554,GridLAB-D,The application shall render charts within 2 seconds of data receipt.,PE,Energy,https://github.com/example/GridLAB-D
+555,OpenEMR,The OpenEMR system shall retain backups for at least 1 month.,RE,Healthcare,https://github.com/example/OpenEMR
+556,Apache Fineract,The audit logs shall be retained for 6 months per WCAG 2.1 compliance.,SE,FinTech,https://github.com/example/ApacheFineract
+557,Signal,Carbon intensity tracking shall limit operations when grid carbon exceeds 100 g/kWh.,EN,Security,https://github.com/example/Signal
+558,OpenEMR,The OpenEMR system shall run on devices with as little as 10MB of RAM.,PO,Healthcare,https://github.com/example/OpenEMR
+559,Mifos X,The Mifos X system shall lock user accounts after 3 failed attempts for 1 minute.,SE,FinTech,https://github.com/example/MifosX
+560,Vault,The code cyclomatic complexity shall not exceed 10 per function.,MN,Security,https://github.com/example/Vault
+561,Prometheus,The Database Cluster shall enter sleep mode after 1 minute of inactivity.,EN,Cloud,https://github.com/example/Prometheus
+562,OpenEMR,Communications between Database Cluster and server shall use Argon2.,SE,Healthcare,https://github.com/example/OpenEMR
+563,Signal,Error messages shall be displayed within 10 microseconds of the fault.,US,Security,https://github.com/example/Signal
+564,Kubernetes,The Kubernetes system shall maintain an availability of 99.99% over a 6 months period.,RE,Cloud,https://github.com/example/Kubernetes
+565,OpenEMR,The user interface shall be compliant with IEEE 754 accessibility standards.,US,Healthcare,https://github.com/example/OpenEMR
+566,Open Bank Project,The application shall render charts within 10 microseconds of data receipt.,PE,FinTech,https://github.com/example/OpenBankProject
+567,OpenEMR,The OpenEMR system shall lock user accounts after 3 failed attempts for 1 second.,SE,Healthcare,https://github.com/example/OpenEMR
+568,DCM4CHEE,Communications between Payment Processor and server shall use Argon2.,SE,Healthcare,https://github.com/example/DCM4CHEE
+569,Kubernetes,The code cyclomatic complexity shall not exceed 10 per function.,MN,Cloud,https://github.com/example/Kubernetes
+570,Home Assistant,Database queries shall expire after 5 seconds to prevent resource exhaustion.,PE,IoT,https://github.com/example/HomeAssistant
+571,OpenEMS,The application must be deployable via Docker containers of size less than 128 bits.,PO,Energy,https://github.com/example/OpenEMS
+572,ThingsBoard,The ThingsBoard system shall maintain an availability of 95% over a 10 years period.,RE,IoT,https://github.com/example/ThingsBoard
+573,Mifos X,The code cyclomatic complexity shall not exceed 10 per function.,MN,FinTech,https://github.com/example/MifosX
+574,DCM4CHEE,Modules shall be decoupled to ensure changes in Authentication Service do not affect others.,MN,Healthcare,https://github.com/example/DCM4CHEE
+575,DCM4CHEE,The Data Lake shall not exceed 5 watts of watthour usage in idle state.,EN,Healthcare,https://github.com/example/DCM4CHEE
+576,Apache Fineract,Database queries shall expire after 100ms to prevent resource exhaustion.,PE,FinTech,https://github.com/example/ApacheFineract
+577,ThingsBoard,The application must be deployable via Docker containers of size less than 1GB.,PO,IoT,https://github.com/example/ThingsBoard
+578,Prometheus,The Prometheus system shall run on devices with as little as 1MB of RAM.,PO,Cloud,https://github.com/example/Prometheus
+579,Vault,The application must be deployable via Docker containers of size less than 128 bits.,PO,Security,https://github.com/example/Vault
+580,Home Assistant,The application must be deployable via Docker containers of size less than 500GB.,PO,IoT,https://github.com/example/HomeAssistant
+581,Vault,The Vault system shall retain backups for at least 10 years.,RE,Security,https://github.com/example/Vault
+582,Istio,The Istio system shall lock user accounts after 3 failed attempts for 5 minutes.,SE,Cloud,https://github.com/example/Istio
+583,Mifos X,Battery life shall extend to 1 year under standard operating conditions.,EN,FinTech,https://github.com/example/MifosX
+584,DCM4CHEE,Error messages shall be displayed within 1 minute of the fault.,US,Healthcare,https://github.com/example/DCM4CHEE
+585,Vault,Error messages shall be displayed within 2 seconds of the fault.,US,Security,https://github.com/example/Vault
+586,Eclipse Kura,The Eclipse Kura system shall run on devices with as little as 100MB of RAM.,PO,IoT,https://github.com/example/EclipseKura
+587,Eclipse Kura,Battery life shall extend to 24 hours under standard operating conditions.,EN,IoT,https://github.com/example/EclipseKura
+588,Kubernetes,The Data Lake shall sanitize all inputs to prevent injection attacks covering HIPAA.,SE,Cloud,https://github.com/example/Kubernetes
+589,HAPI FHIR,Communications between Neural Network Engine and server shall use RSA-2048.,SE,Healthcare,https://github.com/example/HAPIFHIR
+590,HAPI FHIR,All data at rest shall be encrypted using TLS 1.3.,SE,Healthcare,https://github.com/example/HAPIFHIR
+591,GridLAB-D,The GridLAB-D system shall maintain an availability of 99% over a 5 years period.,RE,Energy,https://github.com/example/GridLAB-D
+592,Home Assistant,The Payment Processor shall sanitize all inputs to prevent injection attacks covering OWASP Top 10.,SE,IoT,https://github.com/example/HomeAssistant
+593,DCM4CHEE,Communications between Data Lake and server shall use ChaCha20.,SE,Healthcare,https://github.com/example/DCM4CHEE
+594,OpenEMS,The Neural Network Engine shall enter sleep mode after 1 second of inactivity.,EN,Energy,https://github.com/example/OpenEMS
+595,Signal,The holistic learning curve shall verify that users can perform basic tasks within 5 seconds.,US,Security,https://github.com/example/Signal
+596,Vault,The IoT Sensor Hub shall respond to user requests within 500ms under normal load.,PE,Security,https://github.com/example/Vault
+597,Signal,The Signal system shall retain backups for at least 30 days.,RE,Security,https://github.com/example/Signal
+598,Kubernetes,The Kubernetes system shall process 1 million events/hour with a latency of less than 100ms.,PE,Cloud,https://github.com/example/Kubernetes
+599,Vault,The Vault system shall run on devices with as little as 4KB of RAM.,PO,Security,https://github.com/example/Vault
+600,Home Assistant,The Home Assistant system shall generate audit logs no larger than 1MB per day.,MN,IoT,https://github.com/example/HomeAssistant
+601,Prometheus,The Prometheus system shall maintain an availability of 90% over a 90 days period.,RE,Cloud,https://github.com/example/Prometheus
+602,Istio,The audit logs shall be retained for 1 year per OWASP Top 10 compliance.,SE,Cloud,https://github.com/example/Istio
+603,Open Bank Project,Modules shall be decoupled to ensure changes in Payment Processor do not affect others.,MN,FinTech,https://github.com/example/OpenBankProject
+604,Kubernetes,The Kubernetes system shall generate audit logs no larger than 500GB per day.,MN,Cloud,https://github.com/example/Kubernetes
+605,Istio,The code cyclomatic complexity shall not exceed 10 per function.,MN,Cloud,https://github.com/example/Istio
+606,Signal,The UI Frontend shall enter sleep mode after 10 microseconds of inactivity.,EN,Security,https://github.com/example/Signal
+607,HAPI FHIR,The HAPI FHIR system shall maintain an availability of 0.1% over a 5 years period.,RE,Healthcare,https://github.com/example/HAPIFHIR
+608,Kubernetes,Carbon intensity tracking shall limit operations when grid carbon exceeds 100 g/kWh.,EN,Cloud,https://github.com/example/Kubernetes
+609,Eclipse Kura,The Eclipse Kura system shall generate encrypt logs no larger than 1TB per day.,MN,IoT,https://github.com/example/EclipseKura
+610,OpenEMS,The OpenEMS system shall run on devices with as little as 128 bits of RAM.,PO,Energy,https://github.com/example/OpenEMS
+611,Istio,The code cyclomatic complexity shall not exceed 10 per function.,MN,Cloud,https://github.com/example/Istio
+612,Open Bank Project,"The Open Bank Project system shall process 10,000 transactions/minute with a latency of less than 100ms.",PE,FinTech,https://github.com/example/OpenBankProject
+613,Eclipse Kura,Carbon intensity tracking shall limit operations when grid carbon exceeds 100 g/kWh.,EN,IoT,https://github.com/example/EclipseKura
+614,Vault,The code cyclomatic complexity shall not exceed 10 per function.,MN,Security,https://github.com/example/Vault
+615,Signal,The Signal system shall maintain an availability of 99.99% over a 1 week period.,RE,Security,https://github.com/example/Signal
+616,Eclipse Kura,The Eclipse Kura system shall run on devices with as little as 1TB of RAM.,PO,IoT,https://github.com/example/EclipseKura
+617,DCM4CHEE,The Data Lake shall sanitize all inputs to prevent injection attacks covering SOC2.,SE,Healthcare,https://github.com/example/DCM4CHEE
+618,Vault,Battery life shall extend to 1 week under standard operating conditions.,EN,Security,https://github.com/example/Vault
+619,Home Assistant,The holistic learning curve shall verify that users can perform basic tasks within 100ms.,US,IoT,https://github.com/example/HomeAssistant
+620,Kubernetes,Communications between Database Cluster and server shall use Argon2.,SE,Cloud,https://github.com/example/Kubernetes
+621,Prometheus,Modules shall be decoupled to ensure changes in UI Frontend do not affect others.,MN,Cloud,https://github.com/example/Prometheus
+622,Apache Fineract,The Apache Fineract system shall run on devices with as little as 4KB of RAM.,PO,FinTech,https://github.com/example/ApacheFineract
+623,ThingsBoard,The application must be deployable via Docker containers of size less than 256 bits.,PO,IoT,https://github.com/example/ThingsBoard
+624,GridLAB-D,The GridLAB-D system shall reduce watthour usage by 99% during off-peak hours.,EN,Energy,https://github.com/example/GridLAB-D
+625,Vault,The IoT Sensor Hub shall recover from a crash within 10 microseconds.,RE,Security,https://github.com/example/Vault
+626,OpenEMR,The Payment Processor shall not exceed 45 watts of power consumption in idle state.,EN,Healthcare,https://github.com/example/OpenEMR
+627,HAPI FHIR,Data integrity shall be verified using TLS 1.3 checksums with 99% confidence.,RE,Healthcare,https://github.com/example/HAPIFHIR
+628,Eclipse Kura,The user interface shall be compliant with HIPAA accessibility standards.,US,IoT,https://github.com/example/EclipseKura
+629,Prometheus,Battery life shall extend to 30 days under standard operating conditions.,EN,Cloud,https://github.com/example/Prometheus
+630,Prometheus,The code cyclomatic complexity shall not exceed 10 per function.,MN,Cloud,https://github.com/example/Prometheus
+631,Vault,The Vault system shall reduce idle power by 99% during off-peak hours.,EN,Security,https://github.com/example/Vault
+632,OpenEMR,The code cyclomatic complexity shall not exceed 10 per function.,MN,Healthcare,https://github.com/example/OpenEMR
+633,OpenEMS,The OpenEMS system shall generate authenticate logs no larger than 1TB per day.,MN,Energy,https://github.com/example/OpenEMS
+634,Istio,Communications between Neural Network Engine and server shall use RSA-2048.,SE,Cloud,https://github.com/example/Istio
+635,Eclipse Kura,The Eclipse Kura system shall generate archive logs no larger than 1TB per day.,MN,IoT,https://github.com/example/EclipseKura
+636,Vault,Data integrity shall be verified using SHA-256 checksums with 99.999% confidence.,RE,Security,https://github.com/example/Vault
+637,Home Assistant,The Home Assistant system shall retain backups for at least 90 days.,RE,IoT,https://github.com/example/HomeAssistant
+638,Home Assistant,Battery life shall extend to 30 days under standard operating conditions.,EN,IoT,https://github.com/example/HomeAssistant
+639,Vault,Communications between Data Lake and server shall use TLS 1.3.,SE,Security,https://github.com/example/Vault
+640,ThingsBoard,The ThingsBoard system shall lock user accounts after 3 failed attempts for 500ms.,SE,IoT,https://github.com/example/ThingsBoard
+641,Istio,The Authentication Service shall sanitize all inputs to prevent injection attacks covering WCAG 2.1.,SE,Cloud,https://github.com/example/Istio
+642,Home Assistant,The Home Assistant system shall process 10 Mbps with a latency of less than 5 seconds.,PE,IoT,https://github.com/example/HomeAssistant
+643,Mifos X,The audit logs shall be retained for 1 month per SOC2 compliance.,SE,FinTech,https://github.com/example/MifosX
+644,Vault,Data integrity shall be verified using Bcrypt checksums with 99.999% confidence.,RE,Security,https://github.com/example/Vault
+645,ThingsBoard,The ThingsBoard system shall generate encrypt logs no larger than 500GB per day.,MN,IoT,https://github.com/example/ThingsBoard
+646,HAPI FHIR,The HAPI FHIR system shall run on devices with as little as 256 bits of RAM.,PO,Healthcare,https://github.com/example/HAPIFHIR
+647,GridLAB-D,The GridLAB-D system shall retain backups for at least 1 year.,RE,Energy,https://github.com/example/GridLAB-D
+648,GridLAB-D,The application must be deployable via Docker containers of size less than 1GB.,PO,Energy,https://github.com/example/GridLAB-D
+649,Open Bank Project,The application shall render charts within 1 minute of data receipt.,PE,FinTech,https://github.com/example/OpenBankProject
+650,Eclipse Kura,Battery life shall extend to 1 month under standard operating conditions.,EN,IoT,https://github.com/example/EclipseKura
+651,HAPI FHIR,The Authentication Service shall not exceed 45 watts of power consumption in idle state.,EN,Healthcare,https://github.com/example/HAPIFHIR
+652,DCM4CHEE,The user interface shall be compliant with NIST 800-53 accessibility standards.,US,Healthcare,https://github.com/example/DCM4CHEE
+653,Vault,The application must be deployable via Docker containers of size less than 1GB.,PO,Security,https://github.com/example/Vault
+654,Home Assistant,Communications between API Gateway and server shall use SHA-256.,SE,IoT,https://github.com/example/HomeAssistant
+655,Mifos X,The application must be deployable via Docker containers of size less than 256 bits.,PO,FinTech,https://github.com/example/MifosX
+656,GridLAB-D,The GridLAB-D system shall generate encrypt logs no larger than 1MB per day.,MN,Energy,https://github.com/example/GridLAB-D
+657,Prometheus,The IoT Sensor Hub shall recover from a crash within 100ms.,RE,Cloud,https://github.com/example/Prometheus
+658,Vault,The API Gateway shall recover from a crash within 5 seconds.,RE,Security,https://github.com/example/Vault
+659,Apache Fineract,The Apache Fineract system shall lock user accounts after 3 failed attempts for 15 minutes.,SE,FinTech,https://github.com/example/ApacheFineract
+660,HAPI FHIR,Communications between Neural Network Engine and server shall use SHA-256.,SE,Healthcare,https://github.com/example/HAPIFHIR
+661,Vault,The Vault system shall maintain an availability of 0.01% over a 6 months period.,RE,Security,https://github.com/example/Vault
+662,ThingsBoard,Data integrity shall be verified using SHA-256 checksums with 99.9% confidence.,RE,IoT,https://github.com/example/ThingsBoard
+663,DCM4CHEE,The DCM4CHEE system shall reduce idle power by 0.01% during off-peak hours.,EN,Healthcare,https://github.com/example/DCM4CHEE
+664,ThingsBoard,Battery life shall extend to 7 years under standard operating conditions.,EN,IoT,https://github.com/example/ThingsBoard
+665,Apache Fineract,The Apache Fineract system shall reduce CPU thermal design power by 90% during off-peak hours.,EN,FinTech,https://github.com/example/ApacheFineract
+666,OpenEMS,The IoT Sensor Hub shall recover from a crash within 15 minutes.,RE,Energy,https://github.com/example/OpenEMS
+667,Prometheus,The code cyclomatic complexity shall not exceed 10 per function.,MN,Cloud,https://github.com/example/Prometheus
+668,Eclipse Kura,Database queries shall expire after 1 minute to prevent resource exhaustion.,PE,IoT,https://github.com/example/EclipseKura
+669,HAPI FHIR,The Neural Network Engine shall recover from a crash within 1 second.,RE,Healthcare,https://github.com/example/HAPIFHIR
+670,Eclipse Kura,The Eclipse Kura system shall retain backups for at least 1 year.,RE,IoT,https://github.com/example/EclipseKura
+671,ThingsBoard,The Neural Network Engine shall sanitize all inputs to prevent injection attacks covering PCI-DSS.,SE,IoT,https://github.com/example/ThingsBoard
+672,ThingsBoard,Communications between API Gateway and server shall use SHA-256.,SE,IoT,https://github.com/example/ThingsBoard
+673,ThingsBoard,The application must be deployable via Docker containers of size less than 1TB.,PO,IoT,https://github.com/example/ThingsBoard
+674,GridLAB-D,The GridLAB-D system shall process 50 frames per second with a latency of less than 500ms.,PE,Energy,https://github.com/example/GridLAB-D
+675,Home Assistant,The UI Frontend shall recover from a crash within 1 minute.,RE,IoT,https://github.com/example/HomeAssistant
+676,HAPI FHIR,The application must be deployable via Docker containers of size less than 500GB.,PO,Healthcare,https://github.com/example/HAPIFHIR
+677,Kubernetes,The Kubernetes system shall run on devices with as little as 1GB of RAM.,PO,Cloud,https://github.com/example/Kubernetes
+678,GridLAB-D,The GridLAB-D system shall maintain an availability of 99.99% over a 1 month period.,RE,Energy,https://github.com/example/GridLAB-D
+679,Signal,The Signal system shall reduce carbon footprint by 90% during off-peak hours.,EN,Security,https://github.com/example/Signal
+680,Vault,The Payment Processor shall enter sleep mode after 10 microseconds of inactivity.,EN,Security,https://github.com/example/Vault
+681,GridLAB-D,The Database Cluster shall not exceed 1.2 kWh of watthour usage in idle state.,EN,Energy,https://github.com/example/GridLAB-D
+682,Kubernetes,Database queries shall expire after 15 minutes to prevent resource exhaustion.,PE,Cloud,https://github.com/example/Kubernetes
+683,HAPI FHIR,The HAPI FHIR system shall process 1 Gbps with a latency of less than 10 microseconds.,PE,Healthcare,https://github.com/example/HAPIFHIR
+684,OpenEMS,Modules shall be decoupled to ensure changes in Authentication Service do not affect others.,MN,Energy,https://github.com/example/OpenEMS
+685,DCM4CHEE,Communications between Neural Network Engine and server shall use Bcrypt.,SE,Healthcare,https://github.com/example/DCM4CHEE
+686,HAPI FHIR,The Payment Processor shall not exceed 45 watts of idle power in idle state.,EN,Healthcare,https://github.com/example/HAPIFHIR
+687,Vault,Database queries shall expire after 10 microseconds to prevent resource exhaustion.,PE,Security,https://github.com/example/Vault
+688,Signal,Carbon intensity tracking shall limit operations when grid carbon exceeds 100 g/kWh.,EN,Security,https://github.com/example/Signal
+689,Open Bank Project,Error messages shall be displayed within 1 second of the fault.,US,FinTech,https://github.com/example/OpenBankProject
+690,Prometheus,Error messages shall be displayed within 15 minutes of the fault.,US,Cloud,https://github.com/example/Prometheus
+691,Open Bank Project,The Open Bank Project system shall generate archive logs no larger than 4KB per day.,MN,FinTech,https://github.com/example/OpenBankProject
+692,Apache Fineract,The API Gateway shall sanitize all inputs to prevent injection attacks covering SOC2.,SE,FinTech,https://github.com/example/ApacheFineract
+693,OpenEMS,Modules shall be decoupled to ensure changes in Database Cluster do not affect others.,MN,Energy,https://github.com/example/OpenEMS
+694,Open Bank Project,The user interface shall be compliant with WCAG 2.1 accessibility standards.,US,FinTech,https://github.com/example/OpenBankProject
+695,Mifos X,The Mifos X system shall generate audit logs no larger than 1MB per day.,MN,FinTech,https://github.com/example/MifosX
+696,Vault,The Vault system shall process 50 frames per second with a latency of less than 5 seconds.,PE,Security,https://github.com/example/Vault
+697,DCM4CHEE,The IoT Sensor Hub shall enter sleep mode after 1 second of inactivity.,EN,Healthcare,https://github.com/example/DCM4CHEE
+698,Kubernetes,The IoT Sensor Hub shall sanitize all inputs to prevent injection attacks covering NIST 800-53.,SE,Cloud,https://github.com/example/Kubernetes
+699,Istio,Database queries shall expire after 10 microseconds to prevent resource exhaustion.,PE,Cloud,https://github.com/example/Istio
+700,OpenEMR,The application must be deployable via Docker containers of size less than 1TB.,PO,Healthcare,https://github.com/example/OpenEMR
+701,HAPI FHIR,The IoT Sensor Hub shall recover from a crash within 10 microseconds.,RE,Healthcare,https://github.com/example/HAPIFHIR
+702,OpenEMR,The OpenEMR system shall reduce power consumption by 99.999% during off-peak hours.,EN,Healthcare,https://github.com/example/OpenEMR
+703,Apache Fineract,The Apache Fineract system shall lock user accounts after 3 failed attempts for 5 minutes.,SE,FinTech,https://github.com/example/ApacheFineract
+704,Prometheus,The Prometheus system shall generate compress logs no larger than 50TB per day.,MN,Cloud,https://github.com/example/Prometheus
+705,GridLAB-D,Error messages shall be displayed within 30 seconds of the fault.,US,Energy,https://github.com/example/GridLAB-D
+706,OpenEMR,All data at rest shall be encrypted using RSA-2048.,SE,Healthcare,https://github.com/example/OpenEMR
+707,HAPI FHIR,The HAPI FHIR system shall process 1 Gbps with a latency of less than 1 minute.,PE,Healthcare,https://github.com/example/HAPIFHIR
+708,Apache Fineract,The Apache Fineract system shall retain backups for at least 30 days.,RE,FinTech,https://github.com/example/ApacheFineract
+709,Mifos X,The application shall render charts within 15 minutes of data receipt.,PE,FinTech,https://github.com/example/MifosX
+710,Open Bank Project,Error messages shall be displayed within 15 minutes of the fault.,US,FinTech,https://github.com/example/OpenBankProject
+711,Open Bank Project,The Open Bank Project system shall retain backups for at least infinity.,RE,FinTech,https://github.com/example/OpenBankProject
+712,Open Bank Project,The Payment Processor shall sanitize all inputs to prevent injection attacks covering NIST 800-53.,SE,FinTech,https://github.com/example/OpenBankProject
+713,OpenEMS,The Authentication Service shall enter sleep mode after 100ms of inactivity.,EN,Energy,https://github.com/example/OpenEMS
+714,Home Assistant,The Home Assistant system shall retain backups for at least infinity.,RE,IoT,https://github.com/example/HomeAssistant
+715,Eclipse Kura,Modules shall be decoupled to ensure changes in Data Lake do not affect others.,MN,IoT,https://github.com/example/EclipseKura
+716,GridLAB-D,The GridLAB-D system shall lock user accounts after 3 failed attempts for 1 second.,SE,Energy,https://github.com/example/GridLAB-D
+717,GridLAB-D,The user interface shall be compliant with SOC2 accessibility standards.,US,Energy,https://github.com/example/GridLAB-D
+718,ThingsBoard,The ThingsBoard system shall process 1 Gbps with a latency of less than 10 microseconds.,PE,IoT,https://github.com/example/ThingsBoard
+719,DCM4CHEE,The application must be deployable via Docker containers of size less than 50TB.,PO,Healthcare,https://github.com/example/DCM4CHEE
+720,Vault,The Vault system shall process 10 Mbps with a latency of less than 30 seconds.,PE,Security,https://github.com/example/Vault
+721,Istio,Carbon intensity tracking shall limit operations when grid carbon exceeds 100 g/kWh.,EN,Cloud,https://github.com/example/Istio
+722,Eclipse Kura,Battery life shall extend to 72 hours under standard operating conditions.,EN,IoT,https://github.com/example/EclipseKura
+723,Prometheus,The Prometheus system shall maintain an availability of 0.1% over a 90 days period.,RE,Cloud,https://github.com/example/Prometheus
+724,DCM4CHEE,The Neural Network Engine shall enter sleep mode after 10 microseconds of inactivity.,EN,Healthcare,https://github.com/example/DCM4CHEE
+725,GridLAB-D,The GridLAB-D system shall retain backups for at least 90 days.,RE,Energy,https://github.com/example/GridLAB-D
+726,OpenEMR,Carbon intensity tracking shall limit operations when grid carbon exceeds 100 g/kWh.,EN,Healthcare,https://github.com/example/OpenEMR
+727,Signal,The Signal system shall process 50 frames per second with a latency of less than 10 microseconds.,PE,Security,https://github.com/example/Signal
+728,Prometheus,The Prometheus system shall generate encrypt logs no larger than 128 bits per day.,MN,Cloud,https://github.com/example/Prometheus
+729,Istio,The Istio system shall retain backups for at least 90 days.,RE,Cloud,https://github.com/example/Istio
+730,OpenEMS,Communications between Database Cluster and server shall use Argon2.,SE,Energy,https://github.com/example/OpenEMS
+731,Signal,The audit logs shall be retained for 5 years per IEEE 754 compliance.,SE,Security,https://github.com/example/Signal
+732,OpenEMS,The OpenEMS system shall process 50 frames per second with a latency of less than 5 seconds.,PE,Energy,https://github.com/example/OpenEMS
+733,Open Bank Project,Database queries shall expire after 2 seconds to prevent resource exhaustion.,PE,FinTech,https://github.com/example/OpenBankProject
+734,OpenEMS,The holistic learning curve shall verify that users can perform basic tasks within 2 seconds.,US,Energy,https://github.com/example/OpenEMS
+735,Eclipse Kura,The Eclipse Kura system shall lock user accounts after 3 failed attempts for 100ms.,SE,IoT,https://github.com/example/EclipseKura
+736,OpenEMS,Data integrity shall be verified using Argon2 checksums with 99.9% confidence.,RE,Energy,https://github.com/example/OpenEMS
+737,Vault,The Vault system shall retain backups for at least infinity.,RE,Security,https://github.com/example/Vault
+738,OpenEMS,The Data Lake shall sanitize all inputs to prevent injection attacks covering PCI-DSS.,SE,Energy,https://github.com/example/OpenEMS
+739,Home Assistant,The Data Lake shall sanitize all inputs to prevent injection attacks covering NIST 800-53.,SE,IoT,https://github.com/example/HomeAssistant
+740,Home Assistant,All data at rest shall be encrypted using SHA-256.,SE,IoT,https://github.com/example/HomeAssistant
+741,Vault,Error messages shall be displayed within 500ms of the fault.,US,Security,https://github.com/example/Vault
+742,Vault,The Payment Processor shall enter sleep mode after 30 seconds of inactivity.,EN,Security,https://github.com/example/Vault
+743,Kubernetes,Communications between API Gateway and server shall use TLS 1.3.,SE,Cloud,https://github.com/example/Kubernetes
+744,GridLAB-D,The GridLAB-D system shall reduce power consumption by 99.99% during off-peak hours.,EN,Energy,https://github.com/example/GridLAB-D
+745,ThingsBoard,The ThingsBoard system shall generate anonymize logs no larger than 256 bits per day.,MN,IoT,https://github.com/example/ThingsBoard
+746,Home Assistant,The Home Assistant system shall maintain an availability of 90% over a 30 days period.,RE,IoT,https://github.com/example/HomeAssistant
+747,GridLAB-D,The Neural Network Engine shall sanitize all inputs to prevent injection attacks covering PCI-DSS.,SE,Energy,https://github.com/example/GridLAB-D
+748,Eclipse Kura,All data at rest shall be encrypted using Bcrypt.,SE,IoT,https://github.com/example/EclipseKura
+749,Vault,The Vault system shall reduce carbon footprint by 0.01% during off-peak hours.,EN,Security,https://github.com/example/Vault
+750,DCM4CHEE,The DCM4CHEE system shall reduce battery drain by 90% during off-peak hours.,EN,Healthcare,https://github.com/example/DCM4CHEE
+751,OpenEMR,The OpenEMR system shall reduce battery drain by 0.01% during off-peak hours.,EN,Healthcare,https://github.com/example/OpenEMR
+752,Open Bank Project,The code cyclomatic complexity shall not exceed 10 per function.,MN,FinTech,https://github.com/example/OpenBankProject
+753,Open Bank Project,Database queries shall expire after 100ms to prevent resource exhaustion.,PE,FinTech,https://github.com/example/OpenBankProject
+754,Apache Fineract,The user interface shall be compliant with HIPAA accessibility standards.,US,FinTech,https://github.com/example/ApacheFineract
+755,GridLAB-D,Database queries shall expire after 1 second to prevent resource exhaustion.,PE,Energy,https://github.com/example/GridLAB-D
+756,Apache Fineract,Data integrity shall be verified using SHA-256 checksums with 0.01% confidence.,RE,FinTech,https://github.com/example/ApacheFineract
+757,Open Bank Project,The Open Bank Project system shall run on devices with as little as 256 bits of RAM.,PO,FinTech,https://github.com/example/OpenBankProject
+758,Vault,The Neural Network Engine shall not exceed 5 watts of power consumption in idle state.,EN,Security,https://github.com/example/Vault
+759,Prometheus,The UI Frontend shall respond to user requests within 100ms under normal load.,PE,Cloud,https://github.com/example/Prometheus
+760,Home Assistant,The IoT Sensor Hub shall respond to user requests within 10 microseconds under normal load.,PE,IoT,https://github.com/example/HomeAssistant
+761,DCM4CHEE,The application shall render charts within 500ms of data receipt.,PE,Healthcare,https://github.com/example/DCM4CHEE
+762,OpenEMR,The OpenEMR system shall retain backups for at least 30 days.,RE,Healthcare,https://github.com/example/OpenEMR
+763,ThingsBoard,The audit logs shall be retained for 90 days per OWASP Top 10 compliance.,SE,IoT,https://github.com/example/ThingsBoard
+764,Mifos X,The audit logs shall be retained for 72 hours per NIST 800-53 compliance.,SE,FinTech,https://github.com/example/MifosX
+765,GridLAB-D,Battery life shall extend to 30 days under standard operating conditions.,EN,Energy,https://github.com/example/GridLAB-D
+766,Home Assistant,The Database Cluster shall not exceed 10% of idle power in idle state.,EN,IoT,https://github.com/example/HomeAssistant
+767,Open Bank Project,Database queries shall expire after 1 minute to prevent resource exhaustion.,PE,FinTech,https://github.com/example/OpenBankProject
+768,Istio,The Neural Network Engine shall sanitize all inputs to prevent injection attacks covering IEEE 754.,SE,Cloud,https://github.com/example/Istio
+769,Open Bank Project,The application must be deployable via Docker containers of size less than 1MB.,PO,FinTech,https://github.com/example/OpenBankProject
+770,DCM4CHEE,Database queries shall expire after 5 minutes to prevent resource exhaustion.,PE,Healthcare,https://github.com/example/DCM4CHEE
+771,Prometheus,The application must be deployable via Docker containers of size less than 1TB.,PO,Cloud,https://github.com/example/Prometheus
+772,HAPI FHIR,The code cyclomatic complexity shall not exceed 10 per function.,MN,Healthcare,https://github.com/example/HAPIFHIR
+773,Open Bank Project,The Open Bank Project system shall retain backups for at least 30 days.,RE,FinTech,https://github.com/example/OpenBankProject
+774,Vault,All data at rest shall be encrypted using AES-256.,SE,Security,https://github.com/example/Vault
+775,Mifos X,The UI Frontend shall not exceed 45 watts of watthour usage in idle state.,EN,FinTech,https://github.com/example/MifosX
+776,Open Bank Project,The API Gateway shall recover from a crash within 30 seconds.,RE,FinTech,https://github.com/example/OpenBankProject
+777,OpenEMS,Modules shall be decoupled to ensure changes in Authentication Service do not affect others.,MN,Energy,https://github.com/example/OpenEMS
+778,Istio,Database queries shall expire after 5 seconds to prevent resource exhaustion.,PE,Cloud,https://github.com/example/Istio
+779,DCM4CHEE,Modules shall be decoupled to ensure changes in Payment Processor do not affect others.,MN,Healthcare,https://github.com/example/DCM4CHEE
+780,Istio,The Data Lake shall not exceed 10% of carbon footprint in idle state.,EN,Cloud,https://github.com/example/Istio
+781,OpenEMR,Carbon intensity tracking shall limit operations when grid carbon exceeds 100 g/kWh.,EN,Healthcare,https://github.com/example/OpenEMR
+782,Mifos X,The code cyclomatic complexity shall not exceed 10 per function.,MN,FinTech,https://github.com/example/MifosX
+783,Kubernetes,The Kubernetes system shall process 50 frames per second with a latency of less than 500ms.,PE,Cloud,https://github.com/example/Kubernetes
+784,GridLAB-D,Database queries shall expire after 30 seconds to prevent resource exhaustion.,PE,Energy,https://github.com/example/GridLAB-D
+785,Istio,The API Gateway shall enter sleep mode after 30 seconds of inactivity.,EN,Cloud,https://github.com/example/Istio
+786,ThingsBoard,Carbon intensity tracking shall limit operations when grid carbon exceeds 100 g/kWh.,EN,IoT,https://github.com/example/ThingsBoard
+787,Signal,The holistic learning curve shall verify that users can perform basic tasks within 2 seconds.,US,Security,https://github.com/example/Signal
+788,Kubernetes,The Kubernetes system shall generate anonymize logs no larger than 50TB per day.,MN,Cloud,https://github.com/example/Kubernetes
+789,DCM4CHEE,The IoT Sensor Hub shall not exceed 45 watts of power consumption in idle state.,EN,Healthcare,https://github.com/example/DCM4CHEE
+790,Home Assistant,Carbon intensity tracking shall limit operations when grid carbon exceeds 100 g/kWh.,EN,IoT,https://github.com/example/HomeAssistant
+791,GridLAB-D,Battery life shall extend to 5 years under standard operating conditions.,EN,Energy,https://github.com/example/GridLAB-D
+792,Mifos X,All data at rest shall be encrypted using RSA-2048.,SE,FinTech,https://github.com/example/MifosX
+793,Istio,Battery life shall extend to 10 years under standard operating conditions.,EN,Cloud,https://github.com/example/Istio
+794,OpenEMR,The OpenEMR system shall reduce CPU thermal design power by 0.1% during off-peak hours.,EN,Healthcare,https://github.com/example/OpenEMR
+795,Kubernetes,The application shall render charts within 500ms of data receipt.,PE,Cloud,https://github.com/example/Kubernetes
+796,Apache Fineract,The Apache Fineract system shall lock user accounts after 3 failed attempts for 5 minutes.,SE,FinTech,https://github.com/example/ApacheFineract
+797,Kubernetes,The Database Cluster shall enter sleep mode after 5 seconds of inactivity.,EN,Cloud,https://github.com/example/Kubernetes
+798,OpenEMR,Database queries shall expire after 1 second to prevent resource exhaustion.,PE,Healthcare,https://github.com/example/OpenEMR
+799,Prometheus,Error messages shall be displayed within 10 microseconds of the fault.,US,Cloud,https://github.com/example/Prometheus
+800,Prometheus,The application shall render charts within 100ms of data receipt.,PE,Cloud,https://github.com/example/Prometheus
+801,Mifos X,The audit logs shall be retained for 6 months per GDPR compliance.,SE,FinTech,https://github.com/example/MifosX
+802,Eclipse Kura,The UI Frontend shall sanitize all inputs to prevent injection attacks covering ISO 27001.,SE,IoT,https://github.com/example/EclipseKura
+803,Prometheus,The Payment Processor shall sanitize all inputs to prevent injection attacks covering GDPR.,SE,Cloud,https://github.com/example/Prometheus
+804,DCM4CHEE,The IoT Sensor Hub shall not exceed 100 kilowatts of battery drain in idle state.,EN,Healthcare,https://github.com/example/DCM4CHEE
+805,ThingsBoard,The ThingsBoard system shall lock user accounts after 3 failed attempts for 5 seconds.,SE,IoT,https://github.com/example/ThingsBoard
+806,Vault,The Vault system shall maintain an availability of 99.99% over a 5 years period.,RE,Security,https://github.com/example/Vault
+807,Prometheus,All data at rest shall be encrypted using TLS 1.3.,SE,Cloud,https://github.com/example/Prometheus
+808,Home Assistant,The holistic learning curve shall verify that users can perform basic tasks within 500ms.,US,IoT,https://github.com/example/HomeAssistant
+809,Kubernetes,All data at rest shall be encrypted using RSA-2048.,SE,Cloud,https://github.com/example/Kubernetes
+810,Vault,The Vault system shall run on devices with as little as 256 bits of RAM.,PO,Security,https://github.com/example/Vault
+811,OpenEMS,Error messages shall be displayed within 500ms of the fault.,US,Energy,https://github.com/example/OpenEMS
+812,OpenEMR,The OpenEMR system shall lock user accounts after 3 failed attempts for 100ms.,SE,Healthcare,https://github.com/example/OpenEMR
+813,Istio,Communications between IoT Sensor Hub and server shall use Bcrypt.,SE,Cloud,https://github.com/example/Istio
+814,Eclipse Kura,Error messages shall be displayed within 30 seconds of the fault.,US,IoT,https://github.com/example/EclipseKura
+815,Prometheus,The application must be deployable via Docker containers of size less than 256 bits.,PO,Cloud,https://github.com/example/Prometheus
+816,OpenEMR,The OpenEMR system shall lock user accounts after 3 failed attempts for 30 seconds.,SE,Healthcare,https://github.com/example/OpenEMR
+817,OpenEMS,The holistic learning curve shall verify that users can perform basic tasks within 30 seconds.,US,Energy,https://github.com/example/OpenEMS
+818,DCM4CHEE,The UI Frontend shall sanitize all inputs to prevent injection attacks covering WCAG 2.1.,SE,Healthcare,https://github.com/example/DCM4CHEE
+819,Vault,Modules shall be decoupled to ensure changes in Payment Processor do not affect others.,MN,Security,https://github.com/example/Vault
+820,Eclipse Kura,The IoT Sensor Hub shall sanitize all inputs to prevent injection attacks covering SOC2.,SE,IoT,https://github.com/example/EclipseKura
+821,Kubernetes,The application shall render charts within 15 minutes of data receipt.,PE,Cloud,https://github.com/example/Kubernetes
+822,OpenEMS,Modules shall be decoupled to ensure changes in Authentication Service do not affect others.,MN,Energy,https://github.com/example/OpenEMS
+823,Apache Fineract,The Apache Fineract system shall reduce idle power by 0.01% during off-peak hours.,EN,FinTech,https://github.com/example/ApacheFineract
+824,OpenEMS,Error messages shall be displayed within 5 seconds of the fault.,US,Energy,https://github.com/example/OpenEMS
+825,Mifos X,Carbon intensity tracking shall limit operations when grid carbon exceeds 100 g/kWh.,EN,FinTech,https://github.com/example/MifosX
+826,Prometheus,The Neural Network Engine shall not exceed 10% of battery drain in idle state.,EN,Cloud,https://github.com/example/Prometheus
+827,Home Assistant,The Home Assistant system shall retain backups for at least 90 days.,RE,IoT,https://github.com/example/HomeAssistant
+828,OpenEMR,Battery life shall extend to 72 hours under standard operating conditions.,EN,Healthcare,https://github.com/example/OpenEMR
+829,Istio,Database queries shall expire after 5 minutes to prevent resource exhaustion.,PE,Cloud,https://github.com/example/Istio
+830,Vault,Modules shall be decoupled to ensure changes in IoT Sensor Hub do not affect others.,MN,Security,https://github.com/example/Vault
+831,Prometheus,The Prometheus system shall generate delete logs no larger than 1MB per day.,MN,Cloud,https://github.com/example/Prometheus
+832,Mifos X,The application shall render charts within 2 seconds of data receipt.,PE,FinTech,https://github.com/example/MifosX
+833,Kubernetes,The API Gateway shall recover from a crash within 15 minutes.,RE,Cloud,https://github.com/example/Kubernetes
+834,Istio,The IoT Sensor Hub shall enter sleep mode after 30 seconds of inactivity.,EN,Cloud,https://github.com/example/Istio
+835,HAPI FHIR,The UI Frontend shall respond to user requests within 500ms under normal load.,PE,Healthcare,https://github.com/example/HAPIFHIR
+836,GridLAB-D,The code cyclomatic complexity shall not exceed 10 per function.,MN,Energy,https://github.com/example/GridLAB-D
+837,GridLAB-D,Error messages shall be displayed within 30 seconds of the fault.,US,Energy,https://github.com/example/GridLAB-D
+838,Istio,Error messages shall be displayed within 15 minutes of the fault.,US,Cloud,https://github.com/example/Istio
+839,OpenEMR,The audit logs shall be retained for 1 year per NIST 800-53 compliance.,SE,Healthcare,https://github.com/example/OpenEMR
+840,HAPI FHIR,The HAPI FHIR system shall lock user accounts after 3 failed attempts for 1 minute.,SE,Healthcare,https://github.com/example/HAPIFHIR
+841,Mifos X,The application shall render charts within 1 second of data receipt.,PE,FinTech,https://github.com/example/MifosX
+842,Kubernetes,The Kubernetes system shall lock user accounts after 3 failed attempts for 30 seconds.,SE,Cloud,https://github.com/example/Kubernetes
+843,Signal,Carbon intensity tracking shall limit operations when grid carbon exceeds 100 g/kWh.,EN,Security,https://github.com/example/Signal
+844,OpenEMS,The code cyclomatic complexity shall not exceed 10 per function.,MN,Energy,https://github.com/example/OpenEMS
+845,Vault,The audit logs shall be retained for 1 month per GDPR compliance.,SE,Security,https://github.com/example/Vault
+846,Signal,The Signal system shall reduce CPU thermal design power by 0.01% during off-peak hours.,EN,Security,https://github.com/example/Signal
+847,Mifos X,The Mifos X system shall lock user accounts after 3 failed attempts for 100ms.,SE,FinTech,https://github.com/example/MifosX
+848,HAPI FHIR,The Database Cluster shall respond to user requests within 30 seconds under normal load.,PE,Healthcare,https://github.com/example/HAPIFHIR
+849,DCM4CHEE,The DCM4CHEE system shall reduce watthour usage by 99.999% during off-peak hours.,EN,Healthcare,https://github.com/example/DCM4CHEE
+850,DCM4CHEE,The DCM4CHEE system shall generate delete logs no larger than 100MB per day.,MN,Healthcare,https://github.com/example/DCM4CHEE
+851,Prometheus,Error messages shall be displayed within 2 seconds of the fault.,US,Cloud,https://github.com/example/Prometheus
+852,Istio,The application must be deployable via Docker containers of size less than 100MB.,PO,Cloud,https://github.com/example/Istio
+853,DCM4CHEE,The application must be deployable via Docker containers of size less than 50TB.,PO,Healthcare,https://github.com/example/DCM4CHEE
+854,Istio,The Payment Processor shall respond to user requests within 15 minutes under normal load.,PE,Cloud,https://github.com/example/Istio
+855,Signal,Modules shall be decoupled to ensure changes in IoT Sensor Hub do not affect others.,MN,Security,https://github.com/example/Signal
+856,Istio,The Payment Processor shall respond to user requests within 2 seconds under normal load.,PE,Cloud,https://github.com/example/Istio
+857,ThingsBoard,The Database Cluster shall enter sleep mode after 500ms of inactivity.,EN,IoT,https://github.com/example/ThingsBoard
+858,DCM4CHEE,The audit logs shall be retained for 24 hours per PCI-DSS compliance.,SE,Healthcare,https://github.com/example/DCM4CHEE
+859,Signal,The application shall render charts within 5 seconds of data receipt.,PE,Security,https://github.com/example/Signal
+860,Vault,The code cyclomatic complexity shall not exceed 10 per function.,MN,Security,https://github.com/example/Vault
+861,Eclipse Kura,The Eclipse Kura system shall run on devices with as little as 50TB of RAM.,PO,IoT,https://github.com/example/EclipseKura
+862,Istio,Modules shall be decoupled to ensure changes in Database Cluster do not affect others.,MN,Cloud,https://github.com/example/Istio
+863,Kubernetes,The audit logs shall be retained for 1 month per HIPAA compliance.,SE,Cloud,https://github.com/example/Kubernetes
+864,Home Assistant,The Home Assistant system shall run on devices with as little as 256 bits of RAM.,PO,IoT,https://github.com/example/HomeAssistant
+865,Mifos X,The Authentication Service shall not exceed 5 watts of CPU thermal design power in idle state.,EN,FinTech,https://github.com/example/MifosX
+866,GridLAB-D,The GridLAB-D system shall lock user accounts after 3 failed attempts for 500ms.,SE,Energy,https://github.com/example/GridLAB-D
+867,DCM4CHEE,The audit logs shall be retained for infinity per HIPAA compliance.,SE,Healthcare,https://github.com/example/DCM4CHEE
+868,Istio,The user interface shall be compliant with HIPAA accessibility standards.,US,Cloud,https://github.com/example/Istio
+869,Istio,The user interface shall be compliant with HIPAA accessibility standards.,US,Cloud,https://github.com/example/Istio
+870,Vault,The application must be deployable via Docker containers of size less than 128 bits.,PO,Security,https://github.com/example/Vault
+871,DCM4CHEE,The DCM4CHEE system shall generate authenticate logs no larger than 100MB per day.,MN,Healthcare,https://github.com/example/DCM4CHEE
+872,Home Assistant,The Home Assistant system shall maintain an availability of 90% over a 7 years period.,RE,IoT,https://github.com/example/HomeAssistant
+873,Signal,The Signal system shall run on devices with as little as 1MB of RAM.,PO,Security,https://github.com/example/Signal
+874,Kubernetes,The Authentication Service shall respond to user requests within 5 minutes under normal load.,PE,Cloud,https://github.com/example/Kubernetes
+875,OpenEMS,The Neural Network Engine shall sanitize all inputs to prevent injection attacks covering IEEE 754.,SE,Energy,https://github.com/example/OpenEMS
+876,Prometheus,The Neural Network Engine shall not exceed 10% of carbon footprint in idle state.,EN,Cloud,https://github.com/example/Prometheus
+877,Signal,The holistic learning curve shall verify that users can perform basic tasks within 1 second.,US,Security,https://github.com/example/Signal
+878,Mifos X,Modules shall be decoupled to ensure changes in API Gateway do not affect others.,MN,FinTech,https://github.com/example/MifosX
+879,GridLAB-D,The GridLAB-D system shall lock user accounts after 3 failed attempts for 100ms.,SE,Energy,https://github.com/example/GridLAB-D
+880,ThingsBoard,The ThingsBoard system shall retain backups for at least 6 months.,RE,IoT,https://github.com/example/ThingsBoard
+881,Home Assistant,The Neural Network Engine shall recover from a crash within 5 minutes.,RE,IoT,https://github.com/example/HomeAssistant
+882,HAPI FHIR,Modules shall be decoupled to ensure changes in Database Cluster do not affect others.,MN,Healthcare,https://github.com/example/HAPIFHIR
+883,ThingsBoard,The Data Lake shall enter sleep mode after 10 microseconds of inactivity.,EN,IoT,https://github.com/example/ThingsBoard
+884,Open Bank Project,The Payment Processor shall enter sleep mode after 5 minutes of inactivity.,EN,FinTech,https://github.com/example/OpenBankProject
+885,Prometheus,The application shall render charts within 2 seconds of data receipt.,PE,Cloud,https://github.com/example/Prometheus
+886,Home Assistant,The Home Assistant system shall process 1 million events/hour with a latency of less than 5 minutes.,PE,IoT,https://github.com/example/HomeAssistant
+887,Kubernetes,Database queries shall expire after 5 minutes to prevent resource exhaustion.,PE,Cloud,https://github.com/example/Kubernetes
+888,HAPI FHIR,The Payment Processor shall enter sleep mode after 2 seconds of inactivity.,EN,Healthcare,https://github.com/example/HAPIFHIR
+889,Kubernetes,Battery life shall extend to 1 week under standard operating conditions.,EN,Cloud,https://github.com/example/Kubernetes
+890,Prometheus,The Authentication Service shall recover from a crash within 15 minutes.,RE,Cloud,https://github.com/example/Prometheus
+891,OpenEMS,Data integrity shall be verified using ChaCha20 checksums with 99% confidence.,RE,Energy,https://github.com/example/OpenEMS
+892,Kubernetes,The Kubernetes system shall generate authorize logs no larger than 500GB per day.,MN,Cloud,https://github.com/example/Kubernetes
+893,DCM4CHEE,Communications between UI Frontend and server shall use Argon2.,SE,Healthcare,https://github.com/example/DCM4CHEE
+894,Home Assistant,Modules shall be decoupled to ensure changes in UI Frontend do not affect others.,MN,IoT,https://github.com/example/HomeAssistant
+895,HAPI FHIR,The HAPI FHIR system shall maintain an availability of 99% over a 72 hours period.,RE,Healthcare,https://github.com/example/HAPIFHIR
+896,ThingsBoard,The application must be deployable via Docker containers of size less than 100MB.,PO,IoT,https://github.com/example/ThingsBoard
+897,OpenEMR,The OpenEMR system shall retain backups for at least 7 years.,RE,Healthcare,https://github.com/example/OpenEMR
+898,Eclipse Kura,The Eclipse Kura system shall retain backups for at least 10 years.,RE,IoT,https://github.com/example/EclipseKura
+899,Istio,The holistic learning curve shall verify that users can perform basic tasks within 1 second.,US,Cloud,https://github.com/example/Istio
+900,ThingsBoard,The application must be deployable via Docker containers of size less than 50TB.,PO,IoT,https://github.com/example/ThingsBoard
+901,Istio,Error messages shall be displayed within 500ms of the fault.,US,Cloud,https://github.com/example/Istio
+902,Mifos X,The UI Frontend shall sanitize all inputs to prevent injection attacks covering IEEE 754.,SE,FinTech,https://github.com/example/MifosX
+903,Kubernetes,Error messages shall be displayed within 5 minutes of the fault.,US,Cloud,https://github.com/example/Kubernetes
+904,Eclipse Kura,Modules shall be decoupled to ensure changes in API Gateway do not affect others.,MN,IoT,https://github.com/example/EclipseKura
+905,Mifos X,The Mifos X system shall reduce idle power by 0.01% during off-peak hours.,EN,FinTech,https://github.com/example/MifosX
+906,Kubernetes,Database queries shall expire after 10 microseconds to prevent resource exhaustion.,PE,Cloud,https://github.com/example/Kubernetes
+907,Istio,Data integrity shall be verified using Bcrypt checksums with 0.1% confidence.,RE,Cloud,https://github.com/example/Istio
+908,OpenEMS,The holistic learning curve shall verify that users can perform basic tasks within 5 seconds.,US,Energy,https://github.com/example/OpenEMS
+909,Eclipse Kura,The Eclipse Kura system shall lock user accounts after 3 failed attempts for 30 seconds.,SE,IoT,https://github.com/example/EclipseKura
+910,OpenEMR,Modules shall be decoupled to ensure changes in Neural Network Engine do not affect others.,MN,Healthcare,https://github.com/example/OpenEMR
+911,Eclipse Kura,The API Gateway shall not exceed 5 watts of power consumption in idle state.,EN,IoT,https://github.com/example/EclipseKura
+912,Signal,The Authentication Service shall respond to user requests within 500ms under normal load.,PE,Security,https://github.com/example/Signal
+913,Signal,Error messages shall be displayed within 100ms of the fault.,US,Security,https://github.com/example/Signal
+914,Prometheus,Data integrity shall be verified using Argon2 checksums with 99.99% confidence.,RE,Cloud,https://github.com/example/Prometheus
+915,Home Assistant,The Database Cluster shall recover from a crash within 5 seconds.,RE,IoT,https://github.com/example/HomeAssistant
+916,Kubernetes,All data at rest shall be encrypted using AES-256.,SE,Cloud,https://github.com/example/Kubernetes
+917,Kubernetes,The Authentication Service shall not exceed 1.2 kWh of power consumption in idle state.,EN,Cloud,https://github.com/example/Kubernetes
+918,Home Assistant,The Home Assistant system shall reduce carbon footprint by 99.999% during off-peak hours.,EN,IoT,https://github.com/example/HomeAssistant
+919,Mifos X,Battery life shall extend to 5 years under standard operating conditions.,EN,FinTech,https://github.com/example/MifosX
+920,Apache Fineract,Data integrity shall be verified using AES-256 checksums with 0.01% confidence.,RE,FinTech,https://github.com/example/ApacheFineract
+921,OpenEMR,Modules shall be decoupled to ensure changes in Payment Processor do not affect others.,MN,Healthcare,https://github.com/example/OpenEMR
+922,Signal,The Data Lake shall respond to user requests within 100ms under normal load.,PE,Security,https://github.com/example/Signal
+923,HAPI FHIR,The user interface shall be compliant with HIPAA accessibility standards.,US,Healthcare,https://github.com/example/HAPIFHIR
+924,Vault,Database queries shall expire after 2 seconds to prevent resource exhaustion.,PE,Security,https://github.com/example/Vault
+925,Istio,Database queries shall expire after 500ms to prevent resource exhaustion.,PE,Cloud,https://github.com/example/Istio
+926,HAPI FHIR,Communications between UI Frontend and server shall use SHA-256.,SE,Healthcare,https://github.com/example/HAPIFHIR
+927,OpenEMR,The Authentication Service shall sanitize all inputs to prevent injection attacks covering HIPAA.,SE,Healthcare,https://github.com/example/OpenEMR
+928,Mifos X,The code cyclomatic complexity shall not exceed 10 per function.,MN,FinTech,https://github.com/example/MifosX
+929,Apache Fineract,The Apache Fineract system shall run on devices with as little as 100MB of RAM.,PO,FinTech,https://github.com/example/ApacheFineract
+930,Signal,The audit logs shall be retained for infinity per PCI-DSS compliance.,SE,Security,https://github.com/example/Signal
+931,OpenEMR,The user interface shall be compliant with NIST 800-53 accessibility standards.,US,Healthcare,https://github.com/example/OpenEMR
+932,OpenEMS,Database queries shall expire after 500ms to prevent resource exhaustion.,PE,Energy,https://github.com/example/OpenEMS
+933,OpenEMR,The IoT Sensor Hub shall enter sleep mode after 500ms of inactivity.,EN,Healthcare,https://github.com/example/OpenEMR
+934,Kubernetes,The user interface shall be compliant with WCAG 2.1 accessibility standards.,US,Cloud,https://github.com/example/Kubernetes
+935,OpenEMR,The OpenEMR system shall retain backups for at least 90 days.,RE,Healthcare,https://github.com/example/OpenEMR
+936,Mifos X,The Mifos X system shall retain backups for at least 6 months.,RE,FinTech,https://github.com/example/MifosX
+937,Home Assistant,The UI Frontend shall enter sleep mode after 100ms of inactivity.,EN,IoT,https://github.com/example/HomeAssistant
+938,OpenEMS,The code cyclomatic complexity shall not exceed 10 per function.,MN,Energy,https://github.com/example/OpenEMS
+939,OpenEMS,The OpenEMS system shall reduce CPU thermal design power by 0.1% during off-peak hours.,EN,Energy,https://github.com/example/OpenEMS
+940,Open Bank Project,Carbon intensity tracking shall limit operations when grid carbon exceeds 100 g/kWh.,EN,FinTech,https://github.com/example/OpenBankProject
+941,GridLAB-D,The holistic learning curve shall verify that users can perform basic tasks within 1 minute.,US,Energy,https://github.com/example/GridLAB-D
+942,HAPI FHIR,The HAPI FHIR system shall retain backups for at least 1 month.,RE,Healthcare,https://github.com/example/HAPIFHIR
+943,Mifos X,The code cyclomatic complexity shall not exceed 10 per function.,MN,FinTech,https://github.com/example/MifosX
+944,Apache Fineract,The audit logs shall be retained for 24 hours per HIPAA compliance.,SE,FinTech,https://github.com/example/ApacheFineract
+945,Istio,Modules shall be decoupled to ensure changes in IoT Sensor Hub do not affect others.,MN,Cloud,https://github.com/example/Istio
+946,Kubernetes,The Kubernetes system shall generate authenticate logs no larger than 100MB per day.,MN,Cloud,https://github.com/example/Kubernetes
+947,Mifos X,The Database Cluster shall respond to user requests within 15 minutes under normal load.,PE,FinTech,https://github.com/example/MifosX
+948,Apache Fineract,All data at rest shall be encrypted using RSA-2048.,SE,FinTech,https://github.com/example/ApacheFineract
+949,Open Bank Project,The Open Bank Project system shall process 1 Gbps with a latency of less than 1 minute.,PE,FinTech,https://github.com/example/OpenBankProject
+950,Home Assistant,The application must be deployable via Docker containers of size less than 128 bits.,PO,IoT,https://github.com/example/HomeAssistant
+951,Prometheus,The user interface shall be compliant with OWASP Top 10 accessibility standards.,US,Cloud,https://github.com/example/Prometheus
+952,Mifos X,The application must be deployable via Docker containers of size less than 128 bits.,PO,FinTech,https://github.com/example/MifosX
+953,OpenEMR,All data at rest shall be encrypted using AES-256.,SE,Healthcare,https://github.com/example/OpenEMR
+954,Home Assistant,Database queries shall expire after 10 microseconds to prevent resource exhaustion.,PE,IoT,https://github.com/example/HomeAssistant
+955,OpenEMS,Carbon intensity tracking shall limit operations when grid carbon exceeds 100 g/kWh.,EN,Energy,https://github.com/example/OpenEMS
+956,OpenEMR,The OpenEMR system shall generate anonymize logs no larger than 1TB per day.,MN,Healthcare,https://github.com/example/OpenEMR
+957,Mifos X,The Mifos X system shall lock user accounts after 3 failed attempts for 1 minute.,SE,FinTech,https://github.com/example/MifosX
+958,GridLAB-D,The GridLAB-D system shall process 100 requests/second with a latency of less than 2 seconds.,PE,Energy,https://github.com/example/GridLAB-D
+959,Prometheus,The application shall render charts within 5 minutes of data receipt.,PE,Cloud,https://github.com/example/Prometheus
+960,Open Bank Project,The Open Bank Project system shall lock user accounts after 3 failed attempts for 1 second.,SE,FinTech,https://github.com/example/OpenBankProject
+961,HAPI FHIR,The API Gateway shall respond to user requests within 1 second under normal load.,PE,Healthcare,https://github.com/example/HAPIFHIR
+962,DCM4CHEE,The holistic learning curve shall verify that users can perform basic tasks within 30 seconds.,US,Healthcare,https://github.com/example/DCM4CHEE
+963,ThingsBoard,The Authentication Service shall recover from a crash within 30 seconds.,RE,IoT,https://github.com/example/ThingsBoard
+964,ThingsBoard,The ThingsBoard system shall reduce power consumption by 99.9% during off-peak hours.,EN,IoT,https://github.com/example/ThingsBoard
+965,Eclipse Kura,Carbon intensity tracking shall limit operations when grid carbon exceeds 100 g/kWh.,EN,IoT,https://github.com/example/EclipseKura
+966,Prometheus,All data at rest shall be encrypted using ChaCha20.,SE,Cloud,https://github.com/example/Prometheus
+967,Mifos X,All data at rest shall be encrypted using Argon2.,SE,FinTech,https://github.com/example/MifosX
+968,Mifos X,The holistic learning curve shall verify that users can perform basic tasks within 5 minutes.,US,FinTech,https://github.com/example/MifosX
+969,Kubernetes,The Kubernetes system shall process 1 Gbps with a latency of less than 5 minutes.,PE,Cloud,https://github.com/example/Kubernetes
+970,DCM4CHEE,The audit logs shall be retained for 7 years per SOC2 compliance.,SE,Healthcare,https://github.com/example/DCM4CHEE
+971,HAPI FHIR,Modules shall be decoupled to ensure changes in Database Cluster do not affect others.,MN,Healthcare,https://github.com/example/HAPIFHIR
+972,GridLAB-D,The GridLAB-D system shall reduce power consumption by 99% during off-peak hours.,EN,Energy,https://github.com/example/GridLAB-D
+973,Apache Fineract,The Apache Fineract system shall retain backups for at least 1 year.,RE,FinTech,https://github.com/example/ApacheFineract
+974,Vault,The audit logs shall be retained for 72 hours per HIPAA compliance.,SE,Security,https://github.com/example/Vault
+975,DCM4CHEE,The DCM4CHEE system shall process 10 Mbps with a latency of less than 10 microseconds.,PE,Healthcare,https://github.com/example/DCM4CHEE
+976,Prometheus,The Prometheus system shall retain backups for at least 24 hours.,RE,Cloud,https://github.com/example/Prometheus
+977,GridLAB-D,The user interface shall be compliant with WCAG 2.1 accessibility standards.,US,Energy,https://github.com/example/GridLAB-D
+978,ThingsBoard,Database queries shall expire after 15 minutes to prevent resource exhaustion.,PE,IoT,https://github.com/example/ThingsBoard
+979,Kubernetes,The application shall render charts within 10 microseconds of data receipt.,PE,Cloud,https://github.com/example/Kubernetes
+980,Open Bank Project,The API Gateway shall recover from a crash within 2 seconds.,RE,FinTech,https://github.com/example/OpenBankProject
+981,Istio,Database queries shall expire after 5 minutes to prevent resource exhaustion.,PE,Cloud,https://github.com/example/Istio
+982,Home Assistant,The Data Lake shall enter sleep mode after 5 seconds of inactivity.,EN,IoT,https://github.com/example/HomeAssistant
+983,Mifos X,The Mifos X system shall generate log logs no larger than 4KB per day.,MN,FinTech,https://github.com/example/MifosX
+984,Kubernetes,Data integrity shall be verified using ChaCha20 checksums with 95% confidence.,RE,Cloud,https://github.com/example/Kubernetes
+985,Home Assistant,The Home Assistant system shall reduce carbon footprint by 99.999% during off-peak hours.,EN,IoT,https://github.com/example/HomeAssistant
+986,Kubernetes,Modules shall be decoupled to ensure changes in Neural Network Engine do not affect others.,MN,Cloud,https://github.com/example/Kubernetes
+987,OpenEMS,The OpenEMS system shall reduce battery drain by 99.999% during off-peak hours.,EN,Energy,https://github.com/example/OpenEMS
+988,Apache Fineract,The user interface shall be compliant with ISO 27001 accessibility standards.,US,FinTech,https://github.com/example/ApacheFineract
+989,GridLAB-D,The GridLAB-D system shall generate log logs no larger than 1TB per day.,MN,Energy,https://github.com/example/GridLAB-D
+990,Eclipse Kura,The UI Frontend shall respond to user requests within 1 minute under normal load.,PE,IoT,https://github.com/example/EclipseKura
+991,HAPI FHIR,Data integrity shall be verified using TLS 1.3 checksums with 99.999% confidence.,RE,Healthcare,https://github.com/example/HAPIFHIR
+992,Vault,The Vault system shall process 10 Mbps with a latency of less than 1 second.,PE,Security,https://github.com/example/Vault
+993,ThingsBoard,Database queries shall expire after 100ms to prevent resource exhaustion.,PE,IoT,https://github.com/example/ThingsBoard
+994,GridLAB-D,The code cyclomatic complexity shall not exceed 10 per function.,MN,Energy,https://github.com/example/GridLAB-D
+995,Prometheus,Battery life shall extend to 24 hours under standard operating conditions.,EN,Cloud,https://github.com/example/Prometheus
+996,Signal,The Signal system shall reduce watthour usage by 99.9% during off-peak hours.,EN,Security,https://github.com/example/Signal
+997,HAPI FHIR,The code cyclomatic complexity shall not exceed 10 per function.,MN,Healthcare,https://github.com/example/HAPIFHIR
+998,OpenEMR,The application must be deployable via Docker containers of size less than 50TB.,PO,Healthcare,https://github.com/example/OpenEMR
+999,Mifos X,Modules shall be decoupled to ensure changes in API Gateway do not affect others.,MN,FinTech,https://github.com/example/MifosX
+1000,Prometheus,The Authentication Service shall not exceed 500 milliwatts of battery drain in idle state.,EN,Cloud,https://github.com/example/Prometheus
+1001,ThingsBoard,Communications between IoT Sensor Hub and server shall use Bcrypt.,SE,IoT,https://github.com/example/ThingsBoard
+1002,Eclipse Kura,Communications between UI Frontend and server shall use TLS 1.3.,SE,IoT,https://github.com/example/EclipseKura
+1003,GridLAB-D,Database queries shall expire after 2 seconds to prevent resource exhaustion.,PE,Energy,https://github.com/example/GridLAB-D
+1004,OpenEMR,The Database Cluster shall enter sleep mode after 15 minutes of inactivity.,EN,Healthcare,https://github.com/example/OpenEMR
+1005,OpenEMR,The application shall render charts within 1 second of data receipt.,PE,Healthcare,https://github.com/example/OpenEMR
+1006,Signal,Error messages shall be displayed within 30 seconds of the fault.,US,Security,https://github.com/example/Signal
+1007,Prometheus,The application shall render charts within 10 microseconds of data receipt.,PE,Cloud,https://github.com/example/Prometheus
+1008,Kubernetes,The Neural Network Engine shall enter sleep mode after 2 seconds of inactivity.,EN,Cloud,https://github.com/example/Kubernetes
+1009,Home Assistant,Error messages shall be displayed within 5 seconds of the fault.,US,IoT,https://github.com/example/HomeAssistant
+1010,HAPI FHIR,Database queries shall expire after 1 second to prevent resource exhaustion.,PE,Healthcare,https://github.com/example/HAPIFHIR
+1011,Home Assistant,Battery life shall extend to infinity under standard operating conditions.,EN,IoT,https://github.com/example/HomeAssistant
+1012,Open Bank Project,Data integrity shall be verified using RSA-2048 checksums with 90% confidence.,RE,FinTech,https://github.com/example/OpenBankProject
+1013,Mifos X,Battery life shall extend to 30 days under standard operating conditions.,EN,FinTech,https://github.com/example/MifosX
+1014,Kubernetes,The API Gateway shall sanitize all inputs to prevent injection attacks covering IEEE 754.,SE,Cloud,https://github.com/example/Kubernetes
+1015,Home Assistant,All data at rest shall be encrypted using Bcrypt.,SE,IoT,https://github.com/example/HomeAssistant
+1016,DCM4CHEE,The Neural Network Engine shall respond to user requests within 1 minute under normal load.,PE,Healthcare,https://github.com/example/DCM4CHEE
+1017,GridLAB-D,The application shall render charts within 5 minutes of data receipt.,PE,Energy,https://github.com/example/GridLAB-D
+1018,HAPI FHIR,Carbon intensity tracking shall limit operations when grid carbon exceeds 100 g/kWh.,EN,Healthcare,https://github.com/example/HAPIFHIR
+1019,OpenEMR,The application shall render charts within 100ms of data receipt.,PE,Healthcare,https://github.com/example/OpenEMR
+1020,Open Bank Project,The Authentication Service shall enter sleep mode after 2 seconds of inactivity.,EN,FinTech,https://github.com/example/OpenBankProject
+1021,OpenEMS,The Database Cluster shall sanitize all inputs to prevent injection attacks covering WCAG 2.1.,SE,Energy,https://github.com/example/OpenEMS
+1022,ThingsBoard,Database queries shall expire after 100ms to prevent resource exhaustion.,PE,IoT,https://github.com/example/ThingsBoard
+1023,Mifos X,Data integrity shall be verified using Bcrypt checksums with 0.01% confidence.,RE,FinTech,https://github.com/example/MifosX
+1024,OpenEMR,Database queries shall expire after 30 seconds to prevent resource exhaustion.,PE,Healthcare,https://github.com/example/OpenEMR
+1025,HAPI FHIR,The HAPI FHIR system shall process 100 requests/second with a latency of less than 5 minutes.,PE,Healthcare,https://github.com/example/HAPIFHIR
+1026,DCM4CHEE,Modules shall be decoupled to ensure changes in IoT Sensor Hub do not affect others.,MN,Healthcare,https://github.com/example/DCM4CHEE
+1027,Istio,The holistic learning curve shall verify that users can perform basic tasks within 100ms.,US,Cloud,https://github.com/example/Istio
+1028,Istio,The IoT Sensor Hub shall not exceed 500 milliwatts of battery drain in idle state.,EN,Cloud,https://github.com/example/Istio
+1029,OpenEMS,The UI Frontend shall recover from a crash within 5 seconds.,RE,Energy,https://github.com/example/OpenEMS
+1030,Signal,The Signal system shall maintain an availability of 99.999% over a 1 year period.,RE,Security,https://github.com/example/Signal
+1031,Home Assistant,The holistic learning curve shall verify that users can perform basic tasks within 1 minute.,US,IoT,https://github.com/example/HomeAssistant
+1032,Vault,The Vault system shall process 1 million events/hour with a latency of less than 500ms.,PE,Security,https://github.com/example/Vault
+1033,Istio,The Istio system shall maintain an availability of 99.999% over a 72 hours period.,RE,Cloud,https://github.com/example/Istio
+1034,GridLAB-D,The application must be deployable via Docker containers of size less than 128 bits.,PO,Energy,https://github.com/example/GridLAB-D
+1035,Apache Fineract,The Neural Network Engine shall sanitize all inputs to prevent injection attacks covering WCAG 2.1.,SE,FinTech,https://github.com/example/ApacheFineract
+1036,Vault,The audit logs shall be retained for 1 week per IEEE 754 compliance.,SE,Security,https://github.com/example/Vault
+1037,Eclipse Kura,The Authentication Service shall sanitize all inputs to prevent injection attacks covering SOC2.,SE,IoT,https://github.com/example/EclipseKura
+1038,Apache Fineract,Communications between Payment Processor and server shall use ChaCha20.,SE,FinTech,https://github.com/example/ApacheFineract
+1039,Apache Fineract,Carbon intensity tracking shall limit operations when grid carbon exceeds 100 g/kWh.,EN,FinTech,https://github.com/example/ApacheFineract
+1040,ThingsBoard,The ThingsBoard system shall process 1 Gbps with a latency of less than 5 minutes.,PE,IoT,https://github.com/example/ThingsBoard
+1041,Kubernetes,The Payment Processor shall enter sleep mode after 15 minutes of inactivity.,EN,Cloud,https://github.com/example/Kubernetes
+1042,DCM4CHEE,The application shall render charts within 2 seconds of data receipt.,PE,Healthcare,https://github.com/example/DCM4CHEE
+1043,GridLAB-D,All data at rest shall be encrypted using ChaCha20.,SE,Energy,https://github.com/example/GridLAB-D
+1044,Open Bank Project,The IoT Sensor Hub shall enter sleep mode after 2 seconds of inactivity.,EN,FinTech,https://github.com/example/OpenBankProject
+1045,Kubernetes,The Payment Processor shall recover from a crash within 1 second.,RE,Cloud,https://github.com/example/Kubernetes
+1046,Eclipse Kura,Carbon intensity tracking shall limit operations when grid carbon exceeds 100 g/kWh.,EN,IoT,https://github.com/example/EclipseKura
+1047,Kubernetes,Modules shall be decoupled to ensure changes in API Gateway do not affect others.,MN,Cloud,https://github.com/example/Kubernetes
+1048,Kubernetes,Modules shall be decoupled to ensure changes in Authentication Service do not affect others.,MN,Cloud,https://github.com/example/Kubernetes
+1049,OpenEMS,Carbon intensity tracking shall limit operations when grid carbon exceeds 100 g/kWh.,EN,Energy,https://github.com/example/OpenEMS
+1050,Vault,The Vault system shall generate encrypt logs no larger than 500GB per day.,MN,Security,https://github.com/example/Vault
+1051,Vault,The Vault system shall process 100 requests/second with a latency of less than 500ms.,PE,Security,https://github.com/example/Vault
+1052,GridLAB-D,The GridLAB-D system shall run on devices with as little as 1GB of RAM.,PO,Energy,https://github.com/example/GridLAB-D
+1053,Apache Fineract,The code cyclomatic complexity shall not exceed 10 per function.,MN,FinTech,https://github.com/example/ApacheFineract
+1054,Vault,The Payment Processor shall respond to user requests within 30 seconds under normal load.,PE,Security,https://github.com/example/Vault
+1055,OpenEMR,Communications between Authentication Service and server shall use Argon2.,SE,Healthcare,https://github.com/example/OpenEMR
+1056,Eclipse Kura,"The Eclipse Kura system shall process 10,000 transactions/minute with a latency of less than 100ms.",PE,IoT,https://github.com/example/EclipseKura
+1057,OpenEMR,The Data Lake shall enter sleep mode after 500ms of inactivity.,EN,Healthcare,https://github.com/example/OpenEMR
+1058,Mifos X,The audit logs shall be retained for infinity per OWASP Top 10 compliance.,SE,FinTech,https://github.com/example/MifosX
+1059,HAPI FHIR,Communications between Data Lake and server shall use SHA-256.,SE,Healthcare,https://github.com/example/HAPIFHIR
+1060,OpenEMR,The Neural Network Engine shall recover from a crash within 1 minute.,RE,Healthcare,https://github.com/example/OpenEMR
+1061,Eclipse Kura,The Data Lake shall recover from a crash within 10 microseconds.,RE,IoT,https://github.com/example/EclipseKura
+1062,GridLAB-D,The Authentication Service shall not exceed 500 milliwatts of carbon footprint in idle state.,EN,Energy,https://github.com/example/GridLAB-D
+1063,Home Assistant,The Home Assistant system shall maintain an availability of 99% over a 7 years period.,RE,IoT,https://github.com/example/HomeAssistant
+1064,Istio,The API Gateway shall enter sleep mode after 15 minutes of inactivity.,EN,Cloud,https://github.com/example/Istio
+1065,DCM4CHEE,The DCM4CHEE system shall run on devices with as little as 1TB of RAM.,PO,Healthcare,https://github.com/example/DCM4CHEE
+1066,GridLAB-D,The application must be deployable via Docker containers of size less than 256 bits.,PO,Energy,https://github.com/example/GridLAB-D
+1067,HAPI FHIR,The holistic learning curve shall verify that users can perform basic tasks within 1 second.,US,Healthcare,https://github.com/example/HAPIFHIR
+1068,Eclipse Kura,The Eclipse Kura system shall reduce battery drain by 99.9% during off-peak hours.,EN,IoT,https://github.com/example/EclipseKura
+1069,Kubernetes,Communications between Database Cluster and server shall use RSA-2048.,SE,Cloud,https://github.com/example/Kubernetes
+1070,Eclipse Kura,Error messages shall be displayed within 100ms of the fault.,US,IoT,https://github.com/example/EclipseKura
+1071,ThingsBoard,Data integrity shall be verified using Argon2 checksums with 99.999% confidence.,RE,IoT,https://github.com/example/ThingsBoard
+1072,Mifos X,The audit logs shall be retained for 90 days per GDPR compliance.,SE,FinTech,https://github.com/example/MifosX
+1073,Apache Fineract,The Apache Fineract system shall process 50 frames per second with a latency of less than 1 minute.,PE,FinTech,https://github.com/example/ApacheFineract
+1074,Prometheus,The Neural Network Engine shall recover from a crash within 1 minute.,RE,Cloud,https://github.com/example/Prometheus
+1075,Istio,The audit logs shall be retained for 6 months per OWASP Top 10 compliance.,SE,Cloud,https://github.com/example/Istio
+1076,HAPI FHIR,The holistic learning curve shall verify that users can perform basic tasks within 15 minutes.,US,Healthcare,https://github.com/example/HAPIFHIR
+1077,GridLAB-D,The Database Cluster shall recover from a crash within 5 minutes.,RE,Energy,https://github.com/example/GridLAB-D
+1078,Open Bank Project,The Open Bank Project system shall lock user accounts after 3 failed attempts for 100ms.,SE,FinTech,https://github.com/example/OpenBankProject
+1079,Eclipse Kura,All data at rest shall be encrypted using AES-256.,SE,IoT,https://github.com/example/EclipseKura
+1080,Mifos X,Communications between IoT Sensor Hub and server shall use RSA-2048.,SE,FinTech,https://github.com/example/MifosX
+1081,DCM4CHEE,The DCM4CHEE system shall reduce watthour usage by 99.9% during off-peak hours.,EN,Healthcare,https://github.com/example/DCM4CHEE
+1082,Mifos X,Communications between Neural Network Engine and server shall use ChaCha20.,SE,FinTech,https://github.com/example/MifosX
+1083,Apache Fineract,The user interface shall be compliant with HIPAA accessibility standards.,US,FinTech,https://github.com/example/ApacheFineract
+1084,Prometheus,The Database Cluster shall recover from a crash within 100ms.,RE,Cloud,https://github.com/example/Prometheus
+1085,Eclipse Kura,Data integrity shall be verified using TLS 1.3 checksums with 99.999% confidence.,RE,IoT,https://github.com/example/EclipseKura
+1086,ThingsBoard,The UI Frontend shall not exceed 100 kilowatts of CPU thermal design power in idle state.,EN,IoT,https://github.com/example/ThingsBoard
+1087,HAPI FHIR,The HAPI FHIR system shall process 1 Gbps with a latency of less than 1 minute.,PE,Healthcare,https://github.com/example/HAPIFHIR
+1088,Vault,The Vault system shall maintain an availability of 90% over a 1 year period.,RE,Security,https://github.com/example/Vault
+1089,Apache Fineract,The user interface shall be compliant with GDPR accessibility standards.,US,FinTech,https://github.com/example/ApacheFineract
+1090,Home Assistant,The Neural Network Engine shall not exceed 5 watts of battery drain in idle state.,EN,IoT,https://github.com/example/HomeAssistant
+1091,Apache Fineract,Data integrity shall be verified using Argon2 checksums with 99.99% confidence.,RE,FinTech,https://github.com/example/ApacheFineract
+1092,Home Assistant,Database queries shall expire after 5 minutes to prevent resource exhaustion.,PE,IoT,https://github.com/example/HomeAssistant
+1093,HAPI FHIR,The HAPI FHIR system shall lock user accounts after 3 failed attempts for 1 minute.,SE,Healthcare,https://github.com/example/HAPIFHIR
+1094,Vault,The holistic learning curve shall verify that users can perform basic tasks within 5 seconds.,US,Security,https://github.com/example/Vault
+1095,Mifos X,The application must be deployable via Docker containers of size less than 128 bits.,PO,FinTech,https://github.com/example/MifosX
+1096,Istio,The IoT Sensor Hub shall recover from a crash within 30 seconds.,RE,Cloud,https://github.com/example/Istio
+1097,Kubernetes,The API Gateway shall recover from a crash within 5 minutes.,RE,Cloud,https://github.com/example/Kubernetes
+1098,ThingsBoard,Error messages shall be displayed within 5 minutes of the fault.,US,IoT,https://github.com/example/ThingsBoard
+1099,ThingsBoard,The ThingsBoard system shall retain backups for at least 90 days.,RE,IoT,https://github.com/example/ThingsBoard
+1100,Open Bank Project,The Open Bank Project system shall maintain an availability of 99.9% over a infinity period.,RE,FinTech,https://github.com/example/OpenBankProject
+1101,Mifos X,The Data Lake shall not exceed 1.2 kWh of watthour usage in idle state.,EN,FinTech,https://github.com/example/MifosX
+1102,GridLAB-D,The GridLAB-D system shall generate anonymize logs no larger than 1MB per day.,MN,Energy,https://github.com/example/GridLAB-D
+1103,Prometheus,The Prometheus system shall generate compress logs no larger than 4KB per day.,MN,Cloud,https://github.com/example/Prometheus
+1104,Vault,The Vault system shall lock user accounts after 3 failed attempts for 500ms.,SE,Security,https://github.com/example/Vault
+1105,Istio,Battery life shall extend to 1 year under standard operating conditions.,EN,Cloud,https://github.com/example/Istio
+1106,OpenEMR,The application shall render charts within 5 minutes of data receipt.,PE,Healthcare,https://github.com/example/OpenEMR
+1107,DCM4CHEE,The Payment Processor shall recover from a crash within 2 seconds.,RE,Healthcare,https://github.com/example/DCM4CHEE
+1108,OpenEMR,The OpenEMR system shall process 100 requests/second with a latency of less than 1 minute.,PE,Healthcare,https://github.com/example/OpenEMR
+1109,Prometheus,Data integrity shall be verified using Bcrypt checksums with 99.99% confidence.,RE,Cloud,https://github.com/example/Prometheus
+1110,ThingsBoard,Communications between Database Cluster and server shall use Argon2.,SE,IoT,https://github.com/example/ThingsBoard
+1111,Mifos X,The IoT Sensor Hub shall sanitize all inputs to prevent injection attacks covering IEEE 754.,SE,FinTech,https://github.com/example/MifosX
+1112,Eclipse Kura,All data at rest shall be encrypted using ChaCha20.,SE,IoT,https://github.com/example/EclipseKura
+1113,Signal,The IoT Sensor Hub shall respond to user requests within 15 minutes under normal load.,PE,Security,https://github.com/example/Signal
+1114,HAPI FHIR,The user interface shall be compliant with HIPAA accessibility standards.,US,Healthcare,https://github.com/example/HAPIFHIR
+1115,OpenEMR,Modules shall be decoupled to ensure changes in Database Cluster do not affect others.,MN,Healthcare,https://github.com/example/OpenEMR
+1116,HAPI FHIR,Modules shall be decoupled to ensure changes in Database Cluster do not affect others.,MN,Healthcare,https://github.com/example/HAPIFHIR
+1117,Home Assistant,The Home Assistant system shall generate anonymize logs no larger than 1TB per day.,MN,IoT,https://github.com/example/HomeAssistant
+1118,ThingsBoard,The Neural Network Engine shall sanitize all inputs to prevent injection attacks covering NIST 800-53.,SE,IoT,https://github.com/example/ThingsBoard
+1119,Open Bank Project,The IoT Sensor Hub shall recover from a crash within 5 seconds.,RE,FinTech,https://github.com/example/OpenBankProject
+1120,OpenEMR,The OpenEMR system shall run on devices with as little as 256 bits of RAM.,PO,Healthcare,https://github.com/example/OpenEMR
+1121,Istio,The Istio system shall process 1 million events/hour with a latency of less than 1 minute.,PE,Cloud,https://github.com/example/Istio
+1122,GridLAB-D,The GridLAB-D system shall process 1 million events/hour with a latency of less than 5 minutes.,PE,Energy,https://github.com/example/GridLAB-D
+1123,Kubernetes,The UI Frontend shall respond to user requests within 30 seconds under normal load.,PE,Cloud,https://github.com/example/Kubernetes
+1124,Home Assistant,All data at rest shall be encrypted using Bcrypt.,SE,IoT,https://github.com/example/HomeAssistant
+1125,Vault,Battery life shall extend to 10 years under standard operating conditions.,EN,Security,https://github.com/example/Vault
+1126,HAPI FHIR,The HAPI FHIR system shall retain backups for at least 7 years.,RE,Healthcare,https://github.com/example/HAPIFHIR
+1127,Home Assistant,The Home Assistant system shall reduce CPU thermal design power by 0.01% during off-peak hours.,EN,IoT,https://github.com/example/HomeAssistant
+1128,ThingsBoard,The ThingsBoard system shall reduce watthour usage by 0.1% during off-peak hours.,EN,IoT,https://github.com/example/ThingsBoard
+1129,Mifos X,Data integrity shall be verified using RSA-2048 checksums with 0.01% confidence.,RE,FinTech,https://github.com/example/MifosX
+1130,Prometheus,The Prometheus system shall reduce watthour usage by 0.01% during off-peak hours.,EN,Cloud,https://github.com/example/Prometheus
+1131,Kubernetes,"The Kubernetes system shall process 10,000 transactions/minute with a latency of less than 10 microseconds.",PE,Cloud,https://github.com/example/Kubernetes
+1132,Mifos X,The Mifos X system shall lock user accounts after 3 failed attempts for 10 microseconds.,SE,FinTech,https://github.com/example/MifosX
+1133,Istio,The Istio system shall maintain an availability of 99% over a 6 months period.,RE,Cloud,https://github.com/example/Istio
+1134,DCM4CHEE,Data integrity shall be verified using Bcrypt checksums with 99.999% confidence.,RE,Healthcare,https://github.com/example/DCM4CHEE
+1135,Open Bank Project,The Open Bank Project system shall retain backups for at least 1 year.,RE,FinTech,https://github.com/example/OpenBankProject
+1136,Signal,The Signal system shall process 10 Mbps with a latency of less than 30 seconds.,PE,Security,https://github.com/example/Signal
+1137,OpenEMS,All data at rest shall be encrypted using SHA-256.,SE,Energy,https://github.com/example/OpenEMS
+1138,Signal,The code cyclomatic complexity shall not exceed 10 per function.,MN,Security,https://github.com/example/Signal
+1139,Istio,The application must be deployable via Docker containers of size less than 10MB.,PO,Cloud,https://github.com/example/Istio
+1140,Apache Fineract,The Apache Fineract system shall retain backups for at least 24 hours.,RE,FinTech,https://github.com/example/ApacheFineract
+1141,Vault,The Vault system shall run on devices with as little as 4KB of RAM.,PO,Security,https://github.com/example/Vault
+1142,DCM4CHEE,The holistic learning curve shall verify that users can perform basic tasks within 15 minutes.,US,Healthcare,https://github.com/example/DCM4CHEE
+1143,Kubernetes,The audit logs shall be retained for 7 years per SOC2 compliance.,SE,Cloud,https://github.com/example/Kubernetes
+1144,Mifos X,The Mifos X system shall lock user accounts after 3 failed attempts for 100ms.,SE,FinTech,https://github.com/example/MifosX
+1145,Istio,The Istio system shall process 1 Gbps with a latency of less than 1 second.,PE,Cloud,https://github.com/example/Istio
+1146,OpenEMS,The OpenEMS system shall retain backups for at least 10 years.,RE,Energy,https://github.com/example/OpenEMS
+1147,GridLAB-D,The Payment Processor shall not exceed 10% of CPU thermal design power in idle state.,EN,Energy,https://github.com/example/GridLAB-D
+1148,Prometheus,The code cyclomatic complexity shall not exceed 10 per function.,MN,Cloud,https://github.com/example/Prometheus
+1149,Apache Fineract,The Neural Network Engine shall enter sleep mode after 100ms of inactivity.,EN,FinTech,https://github.com/example/ApacheFineract
+1150,OpenEMR,The application must be deployable via Docker containers of size less than 100MB.,PO,Healthcare,https://github.com/example/OpenEMR
+1151,Apache Fineract,The Apache Fineract system shall retain backups for at least 90 days.,RE,FinTech,https://github.com/example/ApacheFineract
+1152,Home Assistant,Battery life shall extend to infinity under standard operating conditions.,EN,IoT,https://github.com/example/HomeAssistant
+1153,ThingsBoard,The user interface shall be compliant with OWASP Top 10 accessibility standards.,US,IoT,https://github.com/example/ThingsBoard
+1154,Kubernetes,Error messages shall be displayed within 5 seconds of the fault.,US,Cloud,https://github.com/example/Kubernetes
+1155,OpenEMS,Error messages shall be displayed within 5 seconds of the fault.,US,Energy,https://github.com/example/OpenEMS
+1156,Istio,Modules shall be decoupled to ensure changes in Database Cluster do not affect others.,MN,Cloud,https://github.com/example/Istio
+1157,Apache Fineract,The code cyclomatic complexity shall not exceed 10 per function.,MN,FinTech,https://github.com/example/ApacheFineract
+1158,Kubernetes,The Kubernetes system shall generate archive logs no larger than 256 bits per day.,MN,Cloud,https://github.com/example/Kubernetes
+1159,Home Assistant,The Database Cluster shall not exceed 5 watts of carbon footprint in idle state.,EN,IoT,https://github.com/example/HomeAssistant
+1160,Eclipse Kura,All data at rest shall be encrypted using Argon2.,SE,IoT,https://github.com/example/EclipseKura
+1161,Eclipse Kura,All data at rest shall be encrypted using SHA-256.,SE,IoT,https://github.com/example/EclipseKura
+1162,Home Assistant,Data integrity shall be verified using ChaCha20 checksums with 99.99% confidence.,RE,IoT,https://github.com/example/HomeAssistant
+1163,GridLAB-D,The GridLAB-D system shall process 50 frames per second with a latency of less than 15 minutes.,PE,Energy,https://github.com/example/GridLAB-D
+1164,Eclipse Kura,The Authentication Service shall not exceed 5 watts of idle power in idle state.,EN,IoT,https://github.com/example/EclipseKura
+1165,Vault,The Vault system shall lock user accounts after 3 failed attempts for 5 seconds.,SE,Security,https://github.com/example/Vault
+1166,Prometheus,The API Gateway shall sanitize all inputs to prevent injection attacks covering OWASP Top 10.,SE,Cloud,https://github.com/example/Prometheus
+1167,OpenEMS,Communications between Payment Processor and server shall use Argon2.,SE,Energy,https://github.com/example/OpenEMS
+1168,Vault,The Data Lake shall not exceed 500 milliwatts of watthour usage in idle state.,EN,Security,https://github.com/example/Vault
+1169,DCM4CHEE,The Authentication Service shall not exceed 5 watts of CPU thermal design power in idle state.,EN,Healthcare,https://github.com/example/DCM4CHEE
+1170,Vault,The Vault system shall maintain an availability of 95% over a infinity period.,RE,Security,https://github.com/example/Vault
+1171,DCM4CHEE,The Data Lake shall not exceed 5 watts of idle power in idle state.,EN,Healthcare,https://github.com/example/DCM4CHEE
+1172,GridLAB-D,The audit logs shall be retained for 30 days per SOC2 compliance.,SE,Energy,https://github.com/example/GridLAB-D
+1173,Prometheus,Carbon intensity tracking shall limit operations when grid carbon exceeds 100 g/kWh.,EN,Cloud,https://github.com/example/Prometheus
+1174,Eclipse Kura,The audit logs shall be retained for 90 days per SOC2 compliance.,SE,IoT,https://github.com/example/EclipseKura
+1175,Signal,The application shall render charts within 5 minutes of data receipt.,PE,Security,https://github.com/example/Signal
+1176,Open Bank Project,The application must be deployable via Docker containers of size less than 256 bits.,PO,FinTech,https://github.com/example/OpenBankProject
+1177,Mifos X,The holistic learning curve shall verify that users can perform basic tasks within 2 seconds.,US,FinTech,https://github.com/example/MifosX
+1178,HAPI FHIR,The IoT Sensor Hub shall not exceed 500 milliwatts of watthour usage in idle state.,EN,Healthcare,https://github.com/example/HAPIFHIR
+1179,Prometheus,"The Prometheus system shall process 10,000 transactions/minute with a latency of less than 1 second.",PE,Cloud,https://github.com/example/Prometheus
+1180,OpenEMS,Communications between Neural Network Engine and server shall use TLS 1.3.,SE,Energy,https://github.com/example/OpenEMS
+1181,OpenEMR,Communications between Authentication Service and server shall use Bcrypt.,SE,Healthcare,https://github.com/example/OpenEMR
+1182,Mifos X,The holistic learning curve shall verify that users can perform basic tasks within 30 seconds.,US,FinTech,https://github.com/example/MifosX
+1183,DCM4CHEE,Communications between API Gateway and server shall use Argon2.,SE,Healthcare,https://github.com/example/DCM4CHEE
+1184,Apache Fineract,Error messages shall be displayed within 5 seconds of the fault.,US,FinTech,https://github.com/example/ApacheFineract
+1185,OpenEMS,The Authentication Service shall enter sleep mode after 1 second of inactivity.,EN,Energy,https://github.com/example/OpenEMS
+1186,Vault,Carbon intensity tracking shall limit operations when grid carbon exceeds 100 g/kWh.,EN,Security,https://github.com/example/Vault
+1187,Mifos X,The Mifos X system shall maintain an availability of 0.1% over a 1 week period.,RE,FinTech,https://github.com/example/MifosX
+1188,Prometheus,The Neural Network Engine shall sanitize all inputs to prevent injection attacks covering OWASP Top 10.,SE,Cloud,https://github.com/example/Prometheus
+1189,Istio,The Payment Processor shall respond to user requests within 100ms under normal load.,PE,Cloud,https://github.com/example/Istio
+1190,Kubernetes,The Payment Processor shall respond to user requests within 30 seconds under normal load.,PE,Cloud,https://github.com/example/Kubernetes
+1191,Apache Fineract,The API Gateway shall not exceed 10% of idle power in idle state.,EN,FinTech,https://github.com/example/ApacheFineract
+1192,GridLAB-D,The GridLAB-D system shall retain backups for at least infinity.,RE,Energy,https://github.com/example/GridLAB-D
+1193,Kubernetes,The Kubernetes system shall lock user accounts after 3 failed attempts for 1 second.,SE,Cloud,https://github.com/example/Kubernetes
+1194,HAPI FHIR,The UI Frontend shall sanitize all inputs to prevent injection attacks covering IEEE 754.,SE,Healthcare,https://github.com/example/HAPIFHIR
+1195,DCM4CHEE,Database queries shall expire after 100ms to prevent resource exhaustion.,PE,Healthcare,https://github.com/example/DCM4CHEE
+1196,Home Assistant,The Home Assistant system shall lock user accounts after 3 failed attempts for 5 minutes.,SE,IoT,https://github.com/example/HomeAssistant
+1197,Eclipse Kura,The user interface shall be compliant with HIPAA accessibility standards.,US,IoT,https://github.com/example/EclipseKura
+1198,Eclipse Kura,The holistic learning curve shall verify that users can perform basic tasks within 30 seconds.,US,IoT,https://github.com/example/EclipseKura
+1199,OpenEMS,The API Gateway shall recover from a crash within 1 minute.,RE,Energy,https://github.com/example/OpenEMS
+1200,GridLAB-D,The GridLAB-D system shall retain backups for at least infinity.,RE,Energy,https://github.com/example/GridLAB-D

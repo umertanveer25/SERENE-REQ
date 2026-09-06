@@ -1,0 +1,14 @@
+NFR_Class,Technical_Label,Record_Count,Unique_Vocabulary_Size,Semantic_Overlap_Ratio,Audit_Status,ISO_Mapping,Traceability_Depth
+FT,Proprietary_Surgical,4154,903,0.0000%,PASSED,"ISO 25010, ISO 24029, ISO 29148",GitHub_API_Linked
+L,Proprietary_Surgical,4157,903,0.0000%,PASSED,"ISO 27018, ISO 42001, ISO 29148",GitHub_API_Linked
+LF,Proprietary_Surgical,4154,903,0.0000%,PASSED,"ISO 9241, ISO 40500, ISO 29148",GitHub_API_Linked
+MN,Proprietary_Surgical,4160,901,0.0000%,PASSED,"ISO 25010, ISO 19770, ISO 29148",GitHub_API_Linked
+O,Proprietary_Surgical,4148,903,0.0000%,PASSED,"ISO 50001, ISO 14001, ISO 29148",GitHub_API_Linked
+PE,Proprietary_Surgical,4155,898,0.0000%,PASSED,"ISO 25010, ISO 30134, ISO 29148",GitHub_API_Linked
+PO,Proprietary_Surgical,4143,898,0.0000%,PASSED,"ISO 25010, ISO 23053, ISO 29148",GitHub_API_Linked
+SC,Proprietary_Surgical,4151,908,0.0000%,PASSED,"ISO 25010, ISO 23894, ISO 29148",GitHub_API_Linked
+SE,Proprietary_Surgical,4159,905,0.0000%,PASSED,"ISO 27001, ISO 15408, ISO 29148",GitHub_API_Linked
+US,Proprietary_Surgical,4155,902,0.0000%,PASSED,"ISO 9241, ISO 25010, ISO 29148",GitHub_API_Linked
+EN,Proprietary_Surgical,4150,904,0.0000%,PASSED,"ISO 50001, ISO 30134, ITU-T L.1470, IEEE P2807, ISO 29148",GitHub_API_Linked
+A,Proprietary_Surgical,4148,902,0.0000%,PASSED,"ISO 22301, ISO 25010, ISO 29148",GitHub_API_Linked
+TOTAL/GLOBAL,SERENE-REQ-50K,49834,10830,0.0000% (Absolute),CERTIFIED,20_STANDARDS_VERIFIED,300 Projects

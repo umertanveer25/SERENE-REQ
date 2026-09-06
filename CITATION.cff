@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you use this dataset or software, please cite it as below."
+authors:
+- family-names: "Tanveer"
+  given-names: "Umer"
+  orcid: "https://orcid.org/0000-0000-0000-0000"
+title: "SERENE-REQ: A Standardized Enterprise Requirements Dataset & Generative-Traceability Framework for Next-Generation Software Engineering"
+version: 1.0.0
+date-released: 2026-09-06
+url: "https://github.com/umertanveer25/SERENE-REQ"
+license: CC-BY-4.0
